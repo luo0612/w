@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+
+    </style>
+
+    <!--滑动关闭Activity的主题-->
+    <style name="BaseSwipeBackTheme" parent="android:Theme.Light.NoTitleBar">
+
+    </style>
+
+</resources>
