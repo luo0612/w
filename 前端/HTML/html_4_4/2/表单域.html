@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单域</title>
+</head>
+<body>
+<form action="1.php" method="post">
+    <fieldset>
+        <legend>分组信息</legend>
+    </fieldset>
+    <table border="1" cellspacing="0" cellpadding="0" width="500"
+           height="" 500>
+        <tr>
+            <td>用户名 :</td>
+            <td><input type="text" maxlength="6" readonly="readonly" disabled="disabled" name="username" value="前端">
+            </td>
+        </tr>
+        <tr>
+            <td>密码 :</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>性别 :</td>
+            <td><input type="radio" name="gender" checked="checked" value="man">男
+                <input type="radio" name="gender" value="woman">女
+            </td>
+        </tr>
+        <tr>
+            <td>籍贯</td>
+            <td>
+                <!--   <select multiple="multiple">
+                   <option>河北</option>
+                   <option>山西</option>
+                   <option>山东</option>
+                   <option selected="selected">北京</option>-->
+                <select>
+                    <option>河北</option>
+                    <option>山西</option>
+                    <option>山东</option>
+                    <optgroup label="北京">
+                        <option>朝阳区</option>
+                        <option>昌平区</option>
+                        <option>海淀区</option>
+                    </optgroup>
+                </select>
+            </td>
+
+
+        </tr>
+        <tr>
+            <td>爱好</td>
+            <td><input type="checkbox" checked="checked">喝酒
+                <input type="checkbox" checked="checked">抽烟
+                <input type="checkbox" checked="checked">烫头
+            </td>
+
+        </tr>
+        <tr>
+            <td>说明</td>
+            <td><textarea cols="130" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                文件上传
+            </td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+            <td><input type="button" value="普通按钮"></td>
+        </tr>
+        <tr>
+            <td><input type="image" src="../../images/favicon.ico"></td>
+            <td><input type="reset" value="重置"></td>
+        </tr>
+        <tr>
+            <td>网址控件</td>
+            <td><input type="url"></td>
+        </tr>
+        <tr>
+            <td>日期控件</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>时间控件</td>
+            <td><input type="time"></td>
+        </tr>
+        <tr>
+            <td>邮件控件</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>数字控件</td>
+            <td><input type="number" step="5"></td>
+        </tr>
+        <tr>
+            <td>滑块控件</td>
+            <td><input type="range"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
