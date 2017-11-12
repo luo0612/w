@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM拓展获取元素</title>
+    <style>
+        .box {
+            width: 30px;
+            height: 100px;
+            margin: 10px auto;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+<div class="box box1" id="box1"></div>
+<div class="box box2"></div>
+<div class="box box2"></div>
+<div class="box box4"></div>
+<script>
+    //使用javascript方式获取
+    var box1 = document.getElementById("box1");
+    // document.querySelector 只会获取符合条件的第一个元素
+    var box1 = document.querySelector(".box2")
+    box1.style.background = "red"
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM扩展-自定义属性</title>
+</head>
+<body>
+<div class="box" title="盒子" data-my-name="zs" data-content="我是一个div">div</div>
+<script>
+    var box = document.querySelector(".box");
+    //js里面自定义属性
+    //box.index = 100;//类似python中 , 原本没有的属性 , 只要定义并赋值后 , 相当于已经自定义属性
+    console.log(box.className)
+    console.log(box.title)
+    //获取标签的自定义属性
+    //不能通过下面的方式获取
+    //console.log(box.data - my - nam);
+    //自定义属性需要使用dataset[]方式来获取
+    console.log(box.dataset["content"]);
+    //设置自定义属性的值
+
+    var num = 100;
+    num.index = 10;
+    box.index = 100;
+    box.dataset["content"] = "aaaa";
+    //data-my-name="zs" 的获取 , 使用驼峰命名
+    console.log(box.dataset['myName']);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单事件</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>表单时间</legend>
+        <label for="">
+            邮箱 : <input type="email" name="" id="text1"/>
+        </label>
+        <label for="">
+            密码 : <input type="text" name="" id="text2">
+        </label>
+        <input type="submit" value="提交">
+    </fieldset>
+</form>
+
+<script>
+    <!--oninput : 当用户输入的时候触发-->
+    <!--oninvalid : 当验证不通过时触发-->
+    <!--获取元素-->
+    var text1 = document.getElementById("text1");
+    var text2 = document.getElementById("text2");
+    var num = 0;
+    text1.oninput = function () {
+        num++;
+        //将数字显示在text2中
+        text2.value = num;
+    }
+
+    //oninvalid : 当验证不同过是触发
+    //一般用于设置验证不通过的提示文字
+    text1.oninvalid = function () {
+        //自定义提示框显示的文字
+        this.setCustomValidity("亲 , 请输入正确的邮箱格式")
+    }
+
+</script>
+</body>
+</html>
