@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的播放器</title>
+</head>
+<body>
+<video src=".././video/fun.mp4"></video><!--1-->
+<br/><!--2-->
+<button>播放</button><!--3-->
+<button>暂停</button><!--4-->
+<script>
+    //使用js控制
+    //1 . 获取控件
+    //:nth-child(n)选择器用于匹配作为父元素下的第n个(或特定顺序的)子元素的元素，将其封装为jQuery对象并返回
+    // 此处document是父元素 , 就是<body>
+    //说明document表示的时<body>内的所有元素
+    // 因此这里选择<body>下的第3个元素 , 是button类型的
+       document.querySelector("button:nth-child(3)").onclick = function () {
+        //播放
+        document.querySelector("video").play();
+    }
+
+    document.querySelector("button:nth-child(4)").onclick = function () {
+        //暂停
+        document.querySelector("video").pause();
+    }
+</script>
+</body>
+</html>
