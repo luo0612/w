@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定定位案例</title>
+    <style type="text/css">
+        /*清除边距*/
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /*设置.pic居中*/
+        .pic{
+            margin:44px auto;
+            width: 998px;
+
+        }
+        /*设置导航栏*/
+        .nav{
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+        /*设置左对联*/
+        .left{
+            left: 0;
+            top: 70px;
+            position: fixed;
+        }
+        /*设置右对联*/
+        .right{
+            position: fixed;
+            right: 0;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="nav"><img src="../../images/css5/r1_c1.png" alt=""></div>
+    <div class="pic"><img src="../../images/css5/box.png" alt=""></div>
+    <div class="left"><img src="../../images/css5/r2_c1.png" alt=""></div>
+    <div class="right"><img src="../../images/css5/r2_c2.png" alt=""></div>
+</div>
+</body>
+</html>

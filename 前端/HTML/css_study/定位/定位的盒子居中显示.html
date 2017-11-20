@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位的盒子居中显示</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 500px;
+            background: #aaaaaa;
+            position: relative;
+
+        }
+
+        /*设置绝对定位 , 盒子已经脱标*/
+        .nav {
+            width: 960px;
+            height: 60px;
+            background: #666666;
+            position: absolute;
+            bottom: 0;
+            /*只能让标准流的盒子定位居中*/
+            /* margin: 0 auto;*/
+            /*先走父盒子的50% , 再让子盒子走自己的一半(margin-left为负值)*/
+            left: 50%;
+            margin-left: -480px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="nav">
+
+    </div>
+</div>
+</body>
+</html>

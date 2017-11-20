@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>规避脱标流</title>
+    <style type="text/css">
+        .father {
+            width: 500px;
+            height: 500px;
+            background: red;
+        }
+
+        .son {
+            /*子盒子移动到父盒子的右边*/
+            /* margin-left: auto;*/
+            /*子盒子移动到父盒子的左边*/
+            margin-right: auto;
+            width: 100px;
+            height: 100px;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son"></div>
+</div>
+</body>
+</html>

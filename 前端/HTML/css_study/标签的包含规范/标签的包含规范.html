@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签的包含规范</title>
+</head>
+<body>
+<!--div可以包含所有的标签-->
+<div>
+    <p>前端威武</p>
+    <h1>霸气</h1>
+    <span>大气</span>
+</div>
+<!--p标签不能嵌套div-->
+<p>
+<div>前端</div>
+</p>
+<!--p标签不能嵌套h标签-->
+<p>
+<h2>标题</h2>
+</p>
+<!--h标签可以包含p,div标签-->
+<h1>
+    <div>div</div>
+</h1>
+<h1>
+    <p>p</p>
+</h1>
+<!--行内元素不推荐包含行内元素-->
+<span><a href="链接"></a></span>
+<!--行内元素不要包含块元素 , 因为块元素独占一行-->
+<span>
+    <div>div</div>
+    </span>
+</body>
+</html>
