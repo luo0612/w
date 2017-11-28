@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡即动画</title>
+    <style type="text/css">
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+            background-color: green;
+            /* transition: width 3s, height 1s, background-color 3s;*/
+            /*liner 匀速  1s 延迟一秒执行*/
+            transition: all 3s linear 1s;
+        }
+
+        /*伪类 , 当鼠标悬停上去*/
+        .box:hover {
+            width: 500px;
+            height: 300px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

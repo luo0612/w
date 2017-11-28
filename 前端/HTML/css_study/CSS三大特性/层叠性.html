@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS三大特性之层叠性</title>
+    <style type="text/css">
+        /*当多个样式作用于同一个标签时 , 如果样式发生冲突,
+        总是执行后边的代码(后边的代码层叠前边的代码) ,
+        和标签调用选择器的顺序无关*/
+        .box {
+            font-size: 20px;
+            color: red;
+        }
+
+        .box2 {
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box box2">CSS三大特性之层叠性</div>
+</body>
+</html>

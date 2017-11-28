@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变形即动画</title>
+    <style type="text/css">
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            background-color: green;
+            transition: all 1s linear;
+        }
+
+        .box:hover {
+            transform: scale(1.5, 1.5);
+        }
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            margin: 400px auto;
+            background-color: green;
+            transition: all 2s;
+        }
+
+        .box1:hover {
+            /* transform: translate(200px, 0px)*/
+            transform: rotate(-90deg);
+
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<div class="box1"></div>
+
+</body>
+</html>

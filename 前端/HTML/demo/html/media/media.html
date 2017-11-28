@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>媒体案例</title>
+    <style type="text/css">
+        /*标签选择器*/
+        body {
+            margin: 0px;
+        }
+    </style>
+</head>
+<!--设置背景 , 默认距边是有间距的-->
+<body background="res/cun.jpg">
+<!--音乐标签-->
+<!--src : 设置音乐路径 -->
+<!--hidden : 隐藏播放按钮
+true : 隐藏
+false : 显示-->
+<embed src="res/1.mp3" hidden="true" autostart="true" loop="true"></embed>
+<!--滚动标签-->
+<!--behavior : 设置滚动方式
+alternate : 在两端之间来回滚动
+scroll : 由一端滚到另一端 , 会重复
+slide : 由一端滚到另一端 , 不会重复-->
+<!--direction : 设置滚动放线
+down : 向下滚动
+left : 向左滚动
+right : 向右滚动
+up : 向上滚动-->
+<!--loop : 设置滚动次数
+-1 : 一直滚下去-->
+<marquee behavior="alternate" direction="left" loop="-1" srcolldelay="100">
+    背景音乐不错
+</marquee>
+<marquee behavior="alternate" direction="left">
+    <img src="res/1.png">
+</marquee>
+<marquee behavior="scroll" direction="right">
+    <img src="res/2.png">
+</marquee>
+</body>
+</html>

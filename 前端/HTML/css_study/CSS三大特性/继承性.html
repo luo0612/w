@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS三大特性之继承性</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+
+        .box {
+            font-size: 30px;
+            color: red;
+            line-height: 50px;
+            font-style: italic;
+        }
+
+        .box2 {
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+<!--a 标签不能继承文字的颜色-->
+<!--文字的风格可以被继承-->
+<div class="box"><a href="">CSS三大特性之继承性</a></div>
+<div class="box2">第二行</div>
+</body>
+</html>
