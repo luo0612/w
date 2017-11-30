@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+<form action="#" method="post">
+    <!--fieldset 包含所有全局属性-->
+    <fieldset>
+        <!--legend 图例 , 铭文-->
+        <legend>账户信息</legend>
+        <table>
+            <tr>
+                <td>
+                    <font color="red" size="1px">*</font>
+                    用户名 :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="red" size="1px">*</font>
+                    密 码 :
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    性别 :
+                </td>
+                <td>
+                    <input type="radio" name="gender" checked="checked">男
+                    <input type="radio" name="gender">女
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>公司信息</legend>
+        公司名称 : <input type="text">
+        <br>
+        <br>
+        公司地址 :
+        <select>
+            <option selected="selected">---请选择---</option>
+            <option>北京</option>
+            <option>河北</option>
+            <option>上海</option>
+            <option>山东</option>
+            <option>河南</option>
+        </select>
+        <select>
+            <option selected="selected">---请选择---</option>
+            <optgroup label="北京">
+                <option>海淀区</option>
+                <option>朝阳区</option>
+                <option>丰台区</option>
+            </optgroup>
+            <optgroup label="河北">
+                <option>石家庄</option>
+                <option>保定</option>
+                <option>邯郸</option>
+            </optgroup>
+        </select>
+        <select>
+            <option selected="selected">---请选择---</option>
+            <option>四拨子</option>
+            <option>中关村</option>
+            <option>上地</option>
+            <option>软件园</option>
+        </select>
+        <br>
+        <br>
+        购买类型用途 :
+        <input type="checkbox">IT
+        <input type="checkbox">通讯设备
+        <input type="checkbox">大家电
+        <input type="checkbox">办公耗材
+        <br>
+        <br>
+        公司行业 :
+        <select multiple="multiple">
+            <option >IT行业</option>
+            <option >计算机软件</option>
+            <option >市场推广</option>
+            <option selected="selected">广告</option>
+        </select>
+        <br>
+        <br>
+        公司介绍 :
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        营业执照上传 :
+        <input type="file">
+        <br>
+        <br>
+        <input type="image" src="images/reg.jpg">
+    </fieldset>
+</form>
+</body>
+</html>

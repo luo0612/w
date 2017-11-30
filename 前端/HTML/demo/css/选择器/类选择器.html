@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类选择器</title>
+    <style type="text/css">
+        .box {
+            /*设置文字大小*/
+            font-size: 30px;
+            /*设置文字颜色*/
+            color: #ff0000;
+            /*设置宽度*/
+            width: 400px;
+            /*设置高度*/
+            height: 300px;
+            background-color: #999999;
+        }
+
+        .miss {
+            /*设置首行缩进*/
+            /*em : 2倍文字大小的长度*/
+            text-indent: 2em;
+        }
+        .b{
+            width: 60px;
+            height: 60px;
+            background-color: #666666;
+        }
+    </style>
+</head>
+<body>
+<div class="b"></div>
+<div class="box miss">div标签1</div>
+<div>div标签2</div>
+<p class="box">p标签1</p>
+<p>p标签2</p>
+<!--因为span标签是行内元素 , 因此设置宽高对其没作用-->
+<span class="box">span标签</span>
+</body>
+</html>
