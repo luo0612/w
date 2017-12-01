@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+    <style type="text/css">
+        div p {
+            font-size: 40px;
+        }
+
+        div span {
+            color: red;
+        }
+
+        .box p {
+            color: green;
+        }
+
+        /*上面 span继承p的文本颜色 , 但是由于继承的权重为0 , 因此显示为红色*/
+
+        .box .miss {
+            color: yellow;
+        }
+
+        /*上面 类选择器为miss的span元素继承span的文本颜色 , 但是由于继承的权重为0 , 因此显示为黄色
+        而另外一个span依旧是红色*/
+
+        p span {
+            color: #333333;
+        }
+        /*上面由于类选择为miss的span元素 , 已经自己定义过文本颜色 , 由于继承的权重为0 , 因此还是显示为黄色 .
+        而另一个span , 由于当同一个标签的样式发生冲突时 , 总是执行后边代码的样式 , 因此显示为黑灰色*/
+
+    </style>
+</head>
+<body>
+<!--后代选择器 , 首先必须满足包含关系-->
+</body>
+<div class="box">
+    <p>
+        <span class="miss">威武</span>
+        <span>好人</span>
+    </p>
+</div>
+<div class="box">霸气</div>
+
+</html>
