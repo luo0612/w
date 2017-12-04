@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内块元素</title>
+    <style type="text/css">
+        /*标签选择器*/
+        body {
+            vertical-align: middle;
+        }
+
+        /*类选择器*/
+        .username {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            /*对行内块最敏感 , 默认属性是vertical-align:baseline*/
+            /*baseline : 元素放在父元素的基线上*/
+            /*sub : 垂直对齐文本的下标*/
+            /*super : 垂直对齐文本的上标*/
+            /*top : 把元素顶端与行中最高元素的顶端对齐*/
+            /*text-top : 把元素的顶端与父元素字体的顶端对齐*/
+            /*middle : 把元素放置在父元素的中部*/
+            /*bottom : 把元素的顶端与行中最低的元素的顶端对齐*/
+            /*text-bottom : 把元素的底部和父元素字体的底端对齐*/
+            /*inherit : 规定应该从父元素集成vertical-align属性的值*/
+            vertical-align: bottom;
+        }
+
+        /*类选择器*/
+        .picture {
+            background-color: red;
+            width: 100px;
+            height: 500px;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<body>
+<!--行内块的元素特点-->
+<!--1 . 在一行显示-->
+<!--2 . 可以设置宽高-->
+<input type="text" value="username" class="username">
+<img src="images/1.png" class="picture">
+</body>
+</html>

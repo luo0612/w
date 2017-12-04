@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块元素</title>
+    <style type="text/css">
+        .box {
+            width: 300px;
+            height: 100px;
+            background-color: #888888;
+        }
+
+        /*后代选择器*/
+        /*选择.box元素内部所有的p元素*/
+        .box p {
+            /*当块元素嵌套块元素时 , 子块元素的宽度没有定义的情况下 ,
+            子块元素的宽度默认和父块元素一致*/
+            /*因此这里子块元素的宽度也为300px*/
+            height: 50px;
+            /*如果自己定义了宽度 , 则以自己定义的宽度显示*/
+            /* width: 100px;*/
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<!--块元素的特点-->
+<!--1 . 独占一行-->
+<!--2 . 可以设置宽高-->
+<!--3 . 当块元素嵌套块元素 , 子块元素的宽度没有定义时 , 默认和父块元素的宽度一致-->
+<div class="box">
+    <p></p>
+</div>
+</body>
+</html>

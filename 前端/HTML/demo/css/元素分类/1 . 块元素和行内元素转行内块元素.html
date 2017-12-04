@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块元素和行内元素转行内块元素</title>
+    <style type="text/css">
+        /*并集选择器*/
+        div, a, span, strong {
+            /*转行内块元素*/
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            /*文本居中显示*/
+            text-align: center;
+            /*设置元素位于父元素居中对齐*/
+            vertical-align: middle;
+            /*设置文本居中*/
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+<!--块元素和行内元素转行内块元素的-->
+<!--转换之后的元素的特点就是行内块元素的特点:-->
+<!--在一行显示-->
+<!--可以设置宽高-->
+<div>威武</div>
+<a href="#">高兴</a>
+<span>霸气</span>
+<strong>无敌</strong>
+</body>
+</html>

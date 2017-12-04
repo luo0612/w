@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块元素和行内元素互相转换</title>
+    <style type="text/css">
+        /*类选择器*/
+        .box {
+            /*转行内元素*/
+            display: inline;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            /*因为行内元素不能直接设置宽高 ,
+            元素的宽高就是内容撑开的宽高 ,
+            因此在此处设置宽高没有作用*/
+        }
+
+        /*类选择器*/
+        .box1 {
+            /*转块元素*/
+            display: block;
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            /*因为块元素的特点是独占一行 , 可以设置宽高
+            因此此处该元素单独一行显示 , 并且设置的宽高起作用*/
+        }
+    </style>
+</head>
+<body>
+<!--块元素转行内元素-->
+<!--转换之后的特点 , 就是行内元素的特点 :-->
+<!--在一行显示 , 不能直接设置宽高 , 元素的宽高就是内容撑开的宽高-->
+<div class="box">块元素转行内元素</div>
+<!--行内元素转块元素-->
+<!--转换之后的特点就是块元素的特点:-->
+<!--独占一行-->
+<!--可以设置宽高-->
+<!--块元素嵌套块元素 , 子块元素的宽高如果没有定义 , 则和父块元素的默认一致-->
+<span class="box1">行内元素转块元素</span>
+</body>
+</html>
