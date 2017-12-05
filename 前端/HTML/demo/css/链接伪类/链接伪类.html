@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>链接伪类</title>
+    <style type="text/css">
+        /*标签选择器*/
+        /*链接默认状态*/
+        a {
+            color: red;
+        }
+
+        /*链接默认状态*/
+        a:link {
+            color: red;
+            /*显示下划线*/
+            text-decoration: underline;
+        }
+        /*链接访问后的状态*/
+        a:visited {
+            color: green;
+        }
+
+        /*鼠标放在链接上显示的状态*/
+        a:hover {
+            color: blue;
+            /*显示中划线*/
+            text-decoration: line-through;
+        }
+
+        /*链接激活的状态*/
+        a:active {
+            color: pink;
+            /*不显示线条*/
+            text-decoration: none;
+        }
+
+
+    </style>
+</head>
+<body>
+<a href="#">链接</a>
+</body>
+</html>

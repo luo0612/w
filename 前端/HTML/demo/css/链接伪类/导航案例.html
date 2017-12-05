@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航案例</title>
+    <style type="text/css">
+        /* !*类选择器*!
+         .nav {
+             width: 100%;
+             height: 100px;
+             text-align: center;
+             font-family: "微软雅黑";
+             background-color: #888888;
+         }
+
+         !*后代选择器*!
+         .nav a {
+             width: 100px;
+             height: 100px;
+             line-height: 100px;
+             text-decoration: none;
+             display: inline-block;
+         }
+
+         !*后代,交集选择器 , 链接伪类*!
+         .nav a.before:link {
+             color: red;
+         }
+
+         !*后代选择器 , 链接伪类*!
+         .nav a:hover {
+             text-decoration: underline;
+             background-color: #cccccc;
+         }
+
+         !*后代,交集选择器 , 链接伪类*!
+         .nav a.after:link {
+             color: black;
+         }
+
+         !*后代,交集选择器 , 链接伪类*!
+         .nav a.after:hover {
+             color: red;
+         }*/
+        /*类选择器*/
+        .nav {
+            height: 60px;
+            background-color: #aaa;
+            text-align: center;
+        }
+
+        /*标签选择器*/
+        a {
+            display: inline-block;
+            width: 100px;
+            height: 60px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+        }
+
+        /*交集选择器*/
+        a.before {
+            /*利用层叠性*/
+            /*当多个样式作用于同一个(同一类)标签时 , 样式发生了冲突 ,
+            总是执行后边的代码(后边代码层叠前边的代码).
+            和标签调用选择器的顺序没有关系*/
+            color: #F14400;
+        }
+
+        /*链接伪类*/
+        a:hover {
+            background-color: #eeeeee;
+            text-decoration: underline;
+            color: #F14400;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav">
+    <a href="#" class="before">天猫</a>
+    <a href="#" class="before">聚划算</a>
+    <a href="#" class="before">超市</a>
+    <a href="#" class="before">头条</a>
+    <a href="#" class="after">阿里旅行</a>
+    <a href="#" class="after">电器城</a>
+    <a href="#" class="after">淘抢购</a>
+    <a href="#" class="after">苏宁易购</a>
+    <a href="#" class="after">智能生活</a>
+</div>
+</body>
+</html>
