@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车案例</title>
+    <style type="text/css">
+        /*类选择器*/
+        .car {
+            /*转换成行内块 , 才能设置宽高*/
+            display: inline-block;
+            width: 67px;
+            height: 32px;
+            /*设置背景图片*/
+            background-image: url("images/110.png");
+            /*设置是否平铺*/
+            background-repeat: no-repeat;
+        }
+
+        /*链接伪类 , 鼠标停留在上面显示的状态*/
+        .car:hover {
+            background-image: url("images/110.png");
+            background-position: bottom;
+        }
+    </style>
+</head>
+<body>
+<a class="car" href="#"></a>
+</body>
+</html>

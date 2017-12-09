@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内边距边框影响盒子的宽度</title>
+    <style type="text/css">
+        /*类选择器*/
+        .box {
+            /*设置边框*/
+            /*宽度10px , 风格为点线 , 颜色为绿色*/
+            border: 10px dotted green;
+            /*设置内边距*/
+            /*上内边距为10px  , 左右内边距为30px , 下内边距为50px*/
+            padding: 10px 30px 50px;
+            width: 300px;
+            height: 300px;
+            /*边框 , 内边距影响盒子的大小*/
+            /*宽度 : width+border-left+border-right+padding-left+padding-right=380px*/
+            /*高度 : height+border-top+border-bottom+padding-top+padding-bottom=380px*/
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    威武
+</div>
+</body>
+</html>

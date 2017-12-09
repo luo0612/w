@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单控件案例</title>
+    <style type="text/css">
+        /*类选择器*/
+        .username {
+            /*去掉边框*/
+            border: 0 none;
+            /*去掉轮廓线*/
+            outline-style: none;
+            /*设置边框*/
+            /*宽度 1 px , 风格为虚线 , 颜色为绿色*/
+            /*该属性会覆盖上面的border属性*/
+            border: 1px dashed green;
+        }
+
+        /*焦点伪类*/
+        .username:focus {
+            /*当类选择器为username的元素获取到焦点的时候 ,改变背景*/
+            background: red;
+        }
+
+        /*类选择器*/
+        .email {
+            /*去掉边框*/
+            border: 0 none;
+            /*去掉轮廓线*/
+            outline-style: none;
+            /*设置下边框线*/
+            /*宽度为1px , 风格为点线 , 颜色为红色*/
+            border-bottom: 1px dotted red;
+        }
+
+        /*焦点伪类*/
+        .email:focus {
+            /*当获取到焦点的时候 , 改变下边框线*/
+            /*宽度为1px , 风格为实线  , 颜色为绿色*/
+            border-bottom: 1px solid green;
+        }
+
+        /*类选择器*/
+        .search {
+            /*设置无边框*/
+            border: 0 none;
+            /*设置边框*/
+            /*覆盖上面的边框属性*/
+            /*宽度为1px  ,  风格为实线  , 颜色为#999999*/
+            border: 1px solid #999999;
+            /*设置背景*/
+            /*地址为:../背景属性/images/serch.jpg */
+            /*平铺方式为 : 不进行平铺*/
+            /*位置为元素的右边*/
+            background: url("../背景属性/images/serch.jpg") no-repeat right;
+        }
+    </style>
+
+
+</head>
+<body>
+<!--label for id-->
+<!--当label标签获得焦点后 ,自动将焦点作用在for属性指定的id控件上-->
+<label for="username">
+    用户名 :
+</label>
+<input type="text" id="username" class="username">
+<br>
+<br>
+<!--H5中才有-->
+邮箱:<input type="email" class="email">
+<br>
+<br>
+<!--H5中才有-->
+搜索:<input type="search" class="search">
+</body>
+</html>

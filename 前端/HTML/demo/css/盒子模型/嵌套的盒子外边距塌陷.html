@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>嵌套的盒子外边距塌陷</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+
+        /*类选择器*/
+        .box {
+            width: 300px;
+            height: 300px;
+            background: red;
+            /*解决嵌套的盒子外边距塌陷的第一种方式*/
+            /*border: solid yellow 1px;*/
+            /*解决嵌套的盒子外边距塌陷的第二种方式*/
+            overflow: hidden;
+        }
+
+        /*类选择器*/
+        .box1 {
+            width: 300px;
+            height: 100px;
+            background: green;
+            margin: -20px
+
+        }
+    </style>
+</head>
+<body>
+<!--嵌套的盒子外边距塌陷-->
+<!--两个嵌套的盒子 , 如果给子盒子设置margin  , 则父盒子和子盒子都会执行margin-->
+<div class="box">
+    <div class="box1"></div>
+</div>
+
+
+</body>
+</html>

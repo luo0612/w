@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五彩导航</title>
+    <style type="text/css">
+        /*设置宽高 , 因为所有的 a 标签宽高一样 , 因此使用元素后代选择器*/
+        .box a {
+            /*转换为行内块*/
+            display: inline-block;
+            width: 120px;
+            height: 58px;
+            /*文本居中 , 横向*/
+            text-align: center;
+            /*文本居中 , 竖向*/
+            line-height: 50px;
+            /*去除下划线*/
+            text-decoration: none;
+            /*设置文本颜色*/
+            color: #ffffff;
+        }
+
+        #nav1 {
+            background-image: url(images/bg1.png);
+            background-repeat: no-repeat;
+        }
+
+        #nav1:hover {
+            background-image: url(images/bg2.png);
+            background-repeat: no-repeat;
+        }
+
+        #nav2 {
+            background-image: url(images/bg3.jpg);
+        }
+
+        #nav2:hover {
+            background-image: url(images/bg4.png);
+        }
+
+        #nav3 {
+            background-image: url(images/bg5.png);
+        }
+
+        #nav3:hover {
+            background-image: url(images/bg6.png);
+        }
+    </style>
+</head>
+<body>
+<!--思路 : -->
+<!--1. 鼠标悬停到导航栏上 , 需要改变背景 , 因此使用 a 标签 , 及其链接伪类-->
+<!--2. a 标签有宽高 , 因此需要经 a 标签转换为行内块-->
+<!--3 . a 标签的文本需要居中 , 使用text-align , 还需要设置行高line-height进行竖向居中-->
+<div class="box">
+    <a href="#" id="nav1">五彩导航</a>
+    <a href="#" id="nav2">五彩导航</a>
+    <a href="#" id="nav3">五彩导航</a>
+</div>
+</body>
+</html>

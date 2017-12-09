@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框影响盒子的宽度</title>
+    <style type="text/css">
+        /*类选择器*/
+        .box {
+            /*设置边框*/
+            /*宽度为10px , 颜色为红色 , 风格为虚线*/
+            border: 10px red dashed;
+            width: 300px;
+            height: 400px;
+            /*边框为影响盒子的大小 , 实际的宽高如下:*/
+            /*宽度:width+border-left+border-right=320px*/
+            /*高度:height+border-tio+border-right=420px*/
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

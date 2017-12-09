@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航栏</title>
+    <style type="text/css">
+        /*使用标签选择器*/
+        a {
+            /*转为行内块*/
+            display: inline-block;
+            /*设置宽高*/
+            width: 120px;
+            height: 50px;
+            background-repeat: no-repeat;
+            background-image: url(images/bgc.png);
+            /*文字进行居中显示*/
+            /*此时文本只是横向居中*/
+            text-align: center;
+            /*想要竖向居中 , 需要设置行高*/
+            line-height: 50px;
+            /*对下划线进行隐藏*/
+            /*装饰 : decoration*/
+            text-decoration: none;
+        }
+
+        /*使用链接伪类*/
+        a:hover {
+            /*设置背景平铺*/
+            background-repeat: no-repeat;
+            /*当鼠标悬停的时候改变背景*/
+            background-image: url(images/bg.png);
+            /*显示下划线*/
+            text-decoration: underline;
+            /*改变文本颜色*/
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--思路 : -->
+<!-- 1. 根据界面显示标题可以点击 ,因此使用 a 标签-->
+<!-- 2. 每个标题都有背景 , 看起来是有宽高的 , 需要测是否需要转换为行内块-->
+<!-- 2.1 进行测试发现设置背景后 , 不会将a标签撑起 , 因此需要将a标签转为行内块 , 设置宽高-->
+<!-- 3. 当鼠标移动到标题时 , 会改变背景 , 需要使用到链接伪类:hover(盘旋)-->
+<a href="">百度</a>
+<a href="">百度</a>
+<a href="">百度</a>
+<a href="">百度</a>
+<a href="">百度</a>
+<a href="">百度</a>
+</body>
+</html>

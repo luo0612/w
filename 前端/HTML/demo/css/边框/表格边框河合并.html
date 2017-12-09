@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格边框合并</title>
+    <style type="text/css">
+        /*标签选择器*/
+        table {
+            width: 300px;
+            height: 300px;
+            /*设置边框属性 , 上下左右四边一致*/
+            /*边框宽度为1px  , 风格为实线  , 颜色为红色*/
+            border: 1px solid red;
+            /*由于设置单元格与单元格之间的间距为0 , 而每个单元格的线宽为1px ,
+            因此实际看到的线宽为2px  , 而需要的是一个像素 , 因此需要进行合并*/
+            /*collapse : 折叠*/
+            /*inherit : 遗传*/
+            /*separate : 分开*/
+            border-collapse: collapse;
+        }
+
+        /*后代选择器*/
+        table td {
+            /*设置边框属性*/
+            /*边框宽度为1px  , 风格为实线  , 颜色为红色 */
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+<!--cellspacing : 设置单元格与单元格的距离-->
+<table cellspacing="0">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>不会撑大的盒子</title>
+    <style type="text/css">
+        /*类选择器*/
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+
+        /*类选择器*/
+        .box1 {
+            width: 300px;
+            height: 300px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<!--嵌套的盒子 , 子盒子的宽度大于父盒子的宽高 , 不会撑大父盒子的大小 , 但是超出的部分会显示出来-->
+<div class="box">
+    <div class="box1"></div>
+</div>
+
+</body>
+</html>

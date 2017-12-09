@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内元素和行内块的元素的外边距</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+
+        /*类选择器*/
+        .box {
+            background: red;
+            /*行内元素设置外边距只有margin-left和margin-right起作用*/
+            margin: 20px;
+        }
+
+        /*标签选择器*/
+        input {
+            background: yellow;
+            height: 50px;
+            /*行内块可以定义内外边距*/
+            margin: 50px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+<span class="box">行内元素 </span>
+<input type="text" value="行内块元素">
+</body>
+</html>
