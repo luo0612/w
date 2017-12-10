@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动原理</title>
+    <style type="text/css">
+        /*清楚边距*/
+        /*标签选择器*/
+        body {
+            /*设置上下左右的外边距为0px*/
+            margin: 0;
+        }
+
+        /*设置div的宽高*/
+        div {
+            width: 200px;
+            height: 200px;
+        }
+
+        /*设置背景*/
+        /*交集选择器*/
+        div.red {
+            background: red;
+            /*设置浮动到右边*/
+            float: right;
+            /*设置浮动之后 , 元素不占据原理的位置(脱标)*/
+            /*因此现在显示在第一行的是绿色的div*/
+        }
+
+        /*交集选择器*/
+        div.green {
+            background: green;
+            /*设置浮动到左边*/
+            float: left;
+            /*设置浮动之后,元素不占据原理的位置(脱标)*/
+            /*因此显示在左边第一行的是蓝色的div*/
+            /*由于绿色的div设置浮动在左边 , 并且是浮在表面的 ,
+             因此实际看到的第一行是绿色的div*/
+            /*浮动的盒子一行显示*/
+        }
+
+        /*类选择器*/
+        .blue {
+            background: blue;
+            float: left;
+        }
+
+        /*后代,交集选择器*/
+        body div.yellow {
+            background: yellow;
+            /*设置*/
+            /*  float: left;*/
+            /*由于不浮动找不浮动 , 因此黄色的div并没有占据第一行*/
+            /*第一行被span类名为first的span占据了 ,
+            因此可以看见黄色的div底部露出了一部分*/
+        }
+
+        /*标签选择器*/
+        span.last {
+            float: right;
+            width: 100px;
+            height: 100px;
+            background: pink;
+            /*浮动可以实现模式转换*/
+            /*行内元素设置浮动之后 , 会转换成行内块元素 , 可以设置宽高*/
+            /*不推荐使用*/
+            /*浮动元素以元素的顶部为基准对齐*/
+            /*因此可以看到span的顶部和其他div的顶部对齐*/
+        }
+    </style>
+</head>
+<body>
+<!--浮动找浮动 , 不浮动找不浮动-->
+<div class="red"></div>
+<div class="green"></div>
+<span class="first">行内元素</span>
+<div class="blue"></div>
+<div class="yellow"></div>
+<span class="last"></span>
+</body>
+</html>

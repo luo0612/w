@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>精灵图案例</title>
+    <style type="text/css">
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .nav {
+            background: #000;
+            height: 48px;
+            margin-top: 100px;
+        }
+
+        .nav-con {
+            margin: 0 auto;
+            width: 1182px;
+            height: 48px;
+            position: relative;
+        }
+
+        .nav-con ul li {
+            float: left;
+        }
+
+        .nav-con ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            display: inline-block;
+            height: 48px;
+            padding: 0 13px;
+            font: 16px/48px 微软雅黑;
+        }
+
+        .nav-con ul li a:hover {
+            background: #3a92d0;
+        }
+
+        .hot {
+            width: 31px;
+            height: 21px;
+            background: url("images/sprite.png") -57px 0;
+            position: absolute;
+            /*设置绝对定位之后 , 会脱标*/
+            left: 175px;
+            bottom: 34px;
+        }
+
+        .new {
+            width: 31px;
+            height: 21px;
+            background: url("images/sprite.png") -135px 0;
+            position: absolute;
+            /*设置绝对定位之后 , 会脱标*/
+            left: 500px;
+            bottom: 34px;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="nav-con">
+        <div class="hot"></div>
+        <div class="new"></div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">UI</a></li>
+            <li><a href="#">前端</a></li>
+            <li><a href="#">问答</a></li>
+            <li><a href="#">iOS</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">C/C++</a></li>
+            <li><a href="#">python</a></li>
+            <li><a href="#">营销</a></li>
+            <li><a href="#">活动</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        .super {
+            width: 400px;
+            height: 400px;
+            background: yellow;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+        }
+
+        .father {
+            width: 300px;
+            height: 300px;
+            background: green;
+        }
+
+        .son {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: red;
+            left: 10px;
+            bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--嵌套的盒子 , 父盒子没有使用定位 , 子盒子绝对定位 , 子盒子的位置是从浏览器出发-->
+<!--如果其父类之上的某个元素使用了绝对定位 , 则子盒子的位置是从使用了绝对定位的元素位置出发-->
+<div class="super">
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单导航初体验</title>
+    <style type="text/css">
+        /*去除内边距和外边距*/
+        /*并集选择器*/
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            /*去除原本的样式*/
+            list-style: none;
+        }
+
+        .nav {
+            width: 800px;
+            height: 40px;
+            background: pink;
+            /*上下外边距20px , 左右外边距自动填充*/
+            /*进行居中显示*/
+            margin: 20px auto;
+        }
+
+        .nav ul li {
+            /*设置浮动*/
+            float: left;
+        }
+
+        .nav ul li a {
+            display: inline-block;
+            height: 40px;
+            font: 14px/40px 微软雅黑;
+            padding: 0px 20px;
+            text-decoration: none;
+        }
+
+        .nav ul li a:hover {
+            background: #aaaaaa;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li><a href="#">百度</a></li>
+        <li><a href="#">百度一下</a></li>
+        <li><a href="#">威武</a></li>
+    </ul>
+</div>
+</body>
+</html>

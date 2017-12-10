@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        .father {
+            width: 500px;
+            height: 500px;
+            background: #eeeeee;
+            margin: 300px 0 0 300px;
+            position: relative;
+            top: 200px;
+
+        }
+
+        .red {
+            width: 100px;
+            height: 100px;
+        }
+
+        .red {
+            background: red;
+            position: absolute;
+            top: 20px;
+        }
+
+        span {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background: orange;
+            /*不能设置宽高 , 说明行内元素使用相对定位之后 , 不能转换成行内块*/
+        }
+    </style>
+</head>
+<body>
+<!--使用相对定位 , 位置从自身出发-->
+<!--还占据原来的位置 , 元素设置相对定位之后 , 不做其他设置 , 还是占据着原来的位置-->
+<!--子绝父相(父元素相对定位 , 子元素绝对定位)-->
+<!--行内定位使用相对定位不能转行内块-->
+<hr>
+<div class="father">
+    <div class="red"></div>
+    <span>威武</span>
+</div>
+<hr>
+</body>
+</html>

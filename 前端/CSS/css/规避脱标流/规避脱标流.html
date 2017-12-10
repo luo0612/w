@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>规避脱标流</title>
+    <style type="text/css">
+        .father {
+            width: 500px;
+            height: 500px;
+            background: red;
+        }
+
+        .son {
+            width: 100px;
+            height: 100px;
+            background: green;
+            /*设置盒子做外边距为auto , 将盒子冲到右边*/
+            /* margin-left: auto;*/
+            /*左右两边都设置为auto , 则盒子居中显示*/
+            /* margin-right: auto;*/
+            /*设置margin-top和margin-bottom没作用*/
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+<!--尽量使用标准流-->
+<!--标准流解决不了的使用浮动-->
+<!--浮动解决不了的使用定位-->
+<div class="father">
+    <div class="son"></div>
+</div>
+</body>
+</html>

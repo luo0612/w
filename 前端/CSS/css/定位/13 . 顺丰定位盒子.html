@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>顺丰定位盒子</title>
+    <style type="text/css">
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        /*设置banner居中*/
+        .banner {
+            /*必须设置宽高 , 不能像android一样*/
+            width: 1259px;
+            height: 472px;
+            position: relative;
+            /*居中*/
+            left: 50%;
+            margin-left: -625px;
+            /*  margin: 0 auto;*/
+        }
+
+        .nav {
+            width: 960px;
+            height: 60px;
+            background: #333333;
+            position: absolute;
+            /*居中*/
+            left: 50%;
+            margin-left: -480px;
+            bottom: 0;
+        }
+
+        .search {
+            position: absolute;
+            left: 150px;
+            bottom: 56px;
+        }
+
+        .indicate {
+            position: absolute;
+            left: 220px;
+            bottom: 48px;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: inline-block;
+            width: 160px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background: #ffffff;
+            color: #000000;
+        }
+
+        ul li a.one:hover {
+            background: #333333;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+<div class="banner">
+    <div class="bg"><img src="images/sf.png"></div>
+    <div class="nav">
+        <ul>
+            <li><a class="one" href="#">运单查询</a></li>
+            <li><a href="#">运费查询</a></li>
+            <li><a href="#">时效查询</a></li>
+            <li><a href="#">服务网点查询</a></li>
+            <li><a href="#">收送范围查询</a></li>
+            <li><a href="#">客户专区</a></li>
+        </ul>
+    </div>
+    <div class="search"><img src="images/search.png"></div>
+    <div class="indicate"><img src="images/indicate.png"></div>
+</div>
+</body>
+</html>

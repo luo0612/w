@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上合导航案例</title>
+    <style type="text/css">
+        /*去除内边距和外边距*/
+        /*并集选择器*/
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*去除无序列表的样式*/
+        li {
+            list-style: none;
+        }
+
+        /*设置导航栏样式*/
+        .nav {
+            height: 55px;
+            background: url("images/head_bg.jpg");
+            margin-top: 30px;
+            border-top: 1px solid #666666;
+        }
+
+        /*设置导航栏配置*/
+        .nav-con {
+            width: 1000px;
+            height: 55px;
+            /*居中*/
+            margin: 0 auto;
+            /* background: red;*/
+            /*相对定位*/
+            position: relative;
+        }
+
+        /*设置条目*/
+        /*后代选择器*/
+        .nav-con ul li {
+            float: left;
+            background: url("images/li_bg.png") no-repeat right;
+            /*上下内边距为0px , 左右内边距为30px*/
+            padding: 0 30px;
+        }
+
+        /*后代选择器*/
+        .nav-con ul li a {
+            /*转为行内块*/
+            display: inline-block;
+            text-decoration: none;
+            height: 55px;
+            /*字体大小/行高 , 字体family*/
+            font: 18px/55px 微软雅黑;
+            /*文字颜色*/
+            color: #000000;
+        }
+
+        /*伪类选择器*/
+        .nav-con ul li a:hover {
+            color: green;
+        }
+
+        /*设置显示news图标*/
+        .news {
+            /*绝对定位*/
+            /*父相子绝*/
+            position: absolute;
+            left: 30px;
+            bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="nav-con">
+        <ul>
+            <li><a href="#">只能手机</a></li>
+            <li><a href="#">平板电脑</a></li>
+            <li><a href="#">百度</a></li>
+            <li><a href="#">么么哒</a></li>
+        </ul>
+        <div class="news">
+            <img src="images/new.png"></div>
+    </div>
+</div>
+</div>
+</body>
+</html>

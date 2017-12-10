@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位的盒子居中显示</title>
+    <style type="text/css">
+        .box {
+            width: 500px;
+            height: 500px;
+            background: green;
+            /*居中显示*/
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .nav {
+            width: 300px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            /*定位的盒子居中 : 先向左走父元素盒子的一半50% ,
+            再向左走子盒子的一般(margin-left:负值)*/
+            left: 50%; /*子盒子的左边距父盒子的左边走50%*/
+            margin-left: -150px;
+        }
+    </style>
+</head>
+<body>
+<!--标准流-->
+<div class="box">
+    <!--定位盒子-->
+    <div class="nav"></div>
+</div>
+
+</body>
+</html>
