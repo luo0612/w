@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册高亮显示</title>
+    <style type="text/css">
+        .wrong {
+            border: 2px solid red;
+        }
+
+        .right {
+            border: 2px solid #91B81D;
+        }
+    </style>
+    <script type="text/javascript">
+        //4-用户注册高亮显示.html?_ijt=p3r22splirdrlr819sqmud2bom:34 Uncaught ReferenceError: fn is not defined
+        //at HTMLInputElement.onblur (4-用户注册高亮显示.html?_ijt=p3r22splirdrlr819sqmud2bom:34)
+        //如果添加window的onload方法回报上面的上面的错误 , 因为在解析html的时候 , 在解析属性的时候 ,
+        //需要找到找到fn函数的定义声明 , 而定义的window.onload方法, 是在文档加载完成之后才执行 , 因此会出现fn is not defined
+        //window.onload = function () {
+        //需求:
+        //1.失去焦点的时候判断input按钮中的值 ,
+        // 如果账号或者密码在6-12个字符之间则通过 , 否则报错
+        //步骤:
+        //1.获取事件源
+        //2.绑定事件
+        //3.书写事件驱动程序
+        function fn(input) {
+            //html中的input标签行内调用function的时候 ,
+            //是先通过window方法调用的function
+            //所以打印this等于打印window
+            //console.log(this);//Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, frames: Window, …}
+            //console.log(input);//<input type="text" onblur="fn(this)">
+            if (input.value.length < 6 || input.value.value > 12) {
+                input.className = "wrong";
+            } else {
+                input.className = "right"
+            }
+        }
+
+        //}
+    </script>
+</head>
+<body>
+账号: <input type="text" onblur="fn(this)">
+密码: <input type="text" onblur="fn(this)">
+</body>
+</html>

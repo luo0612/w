@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>禁用文本框</title>
+    <script>
+        //当文档加载完毕 , 触发该事件
+        window.onload = function () {
+            //需求: 禁用文本框
+            //步奏:
+            //1.获取事件源和相关元素
+            //2.绑定事件
+            //3.书写事件驱动程序
+
+            //1.获取事件源
+            //input , button , buttong
+            var account = document.getElementsByTagName("input")[0];
+            //禁止 : forbid
+            var forbid = document.getElementsByTagName("button")[0];
+            //解禁 : unban
+            var unban = document.getElementsByTagName("button")[1];
+
+            //2.绑定事件
+            //2.1.绑定静止事件
+            forbid.onclick = function () {
+                //3.书写事件驱动程序
+                //禁止使用
+                account.disabled = "disabled";
+            }
+            //2.2.绑定解除事件
+            unban.onclick = function () {
+                //3.书写事件驱动程序
+                //account.removeAttribute("disabled");
+                //account.disabled = "";
+                account.disabled = false;
+            }
+
+        }
+    </script>
+</head>
+<body>
+账号: <input type="text" value="javaScript...">
+<button>禁用</button>
+<button>解禁</button>
+<br>
+<br>
+密码: <input type="password" value="aabbcc">
+</body>
+</html>

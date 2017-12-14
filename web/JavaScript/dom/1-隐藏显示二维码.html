@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐藏显示二维码</title>
+    <style type="text/css">
+        /*类选择器*/
+        .nodeSmall {
+            width: 50px;
+            height: 50px;
+            /*使用精灵图*/
+            background: url("images/bgs.png") no-repeat -159px -51px;
+            /*进行固定定位 , 设置之后 , 元素脱标不占据原来的位置*/
+            position: fixed;
+            /*元素的左边距离父元素的右边10px*/
+            right: 10px;
+            /*距离父元素的顶部 , 40%的父元素高度*/
+            top: 40%;
+        }
+
+        .qrCode {
+            /*设置绝对定位 , 元素使用绝对定位之后 , 不占据原来的位置 , 脱标*/
+            position: absolute;
+            top: 0;
+            /*网页的坐标系和Android的一样 , 左负右正 , 上负下正*/
+            /*因此二维码显示在nodeSmall的左边*/
+            left: -150px;
+        }
+
+        /*后代选择器*/
+        .nodeSmall a {
+            /*行内元素 , 转块元素*/
+            display: block;
+            width: 50px;
+            height: 50px;
+        }
+
+        .hide {
+            /*隐藏*/
+            display: none;
+        }
+
+        .show {
+            /*显示*/
+            display: block;
+        }
+
+
+    </style>
+
+    <script>
+        /*window.onload是一个事件 , 当文档加载完成之后 , 就会触发该事件 ,
+        * 可以为此事件注册事件处理函数 , 并将要执行的脚本代码放在事件处理函数中,
+        * 可以避免获取不到对象的情况*/
+        window.onload = function () {
+            //需求 :
+            //1 . 将鼠标放到a链接上 , 显示二维码 (添加show类名 , 去掉hide类名)
+            //2 . 鼠标移开a链接 , 隐藏二维码 (添加hide类名 , 去掉show类名)
+
+            //步骤 :
+            // 1. 获取事件源和相关元素
+            // 2. 绑定事件
+            // 3. 书写事件驱动程序
+
+            // 1. 获取事件源和相关元素
+            var a = document.getElementsByTagName("a")[0];
+            var div = document.getElementsByClassName("qrCode")[0];
+
+            // 2. 绑定事件
+            // 2.2 绑定事件
+            //鼠标悬停的事件  , 当鼠标悬停在a标签上时 , 执行fnShow函数
+            a.onmouseover = fnShow;
+            //鼠标移除的时间 , 当鼠标移除a标签时 , 执行fnHide函数
+            a.onmouseout = fnHide;
+
+            // 2.1 定义方法
+            function fnShow() {
+                // 3. 书写事件驱动程序
+                div.className = "qrCode show";
+            }
+
+            function fnHide() {
+                // 3. 书写事件驱动程序
+                div.className = "qrCode hide";
+            }
+
+
+        }
+    </script>
+
+</head>
+<body>
+<div class="nodeSmall" id="node_small">
+    <a href="#"></a>
+    <div class="qrCode hide" id="qr_code">
+        <img src="images/qrCode.png" alt="二维码">
+    </div>
+</div>
+
+</body>
+</html>

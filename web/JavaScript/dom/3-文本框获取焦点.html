@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本框获取焦点</title>
+    <style type="text/css">
+        /*标签选择器*/
+        input {
+            width: 300px;
+            height: 36px;
+            padding-left: 5px;
+            color: #cccccc;
+        }
+
+        label {
+            /*绝对定位*/
+            position: absolute;
+            top: 82px;
+            left: 56px;
+            font-size: 12px;
+            color: #cccccc;
+            /*光标 : 指示文本的作用*/
+            cursor: text;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            //需求:
+            //1.京东的input按钮获取了插入条光标立即删除内容 . 失去插入条光标显示文本
+            //步骤:
+            //1.获取事件源和相关元素
+            //2.绑定事件
+            //3.书写事件驱动程序
+
+            //1.获取事件源
+            var jingDong = document.getElementById("jingDong");
+            //2.绑定事件
+            //2.1.获取焦点的事件
+            jingDong.onfocus = function () {
+                if (this.value === "京东商城") {
+                    this.value = "";
+                }
+            }
+            //2.2.失去焦点的事件
+            jingDong.onblur = function () {
+                if (this.value === "") {
+                    this.value = "京东商城";
+                }
+            }
+
+            //需求:
+            //1.在input中输入文字 , label标签隐藏 . 里面的文字变成空字符串 , label显示
+            //步骤:
+            //1.获取事件源和相关元素
+            //2.绑定事件
+            //3.书写事件驱动程序
+
+            //1.获取事件源
+            var taoBao = document.getElementById("taoBao");
+            var taoBaoLabel = document.getElementsByTagName("label")[0];
+
+            //2.绑定事件
+            //2.1输入的事件
+            taoBao.oninput = function () {
+                //3.书写事件驱动程序
+                //判断input中的值是否为空 , 如果为空则label显示 , 否则隐藏
+                if (this.value === "") {
+                    taoBaoLabel.className = "show";
+                } else {
+                    taoBaoLabel.className = "hide";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+京东:<input id="jingDong" type="text" value="京东商城">
+<br><br>
+淘宝:<label for="taoBao">淘宝店铺</label>
+<input id="taoBao" type="text">
+<br><br>
+placeholder:
+<!--placeholder : 占位符-->
+<input type="text" placeholder="placeholder属性 , 类似android中hint属性">
+</body>
+</html>

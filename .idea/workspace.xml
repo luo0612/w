@@ -2,123 +2,350 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f183f7-7203-4889-a5d4-d3e0596ae52d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/111.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/indicate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/sf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/images/xiaom_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/head_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/li_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/精灵图/images/qq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/精灵图/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/1 . CSS之内容移除.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/2 . CSS之内容移除2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/CSS可见性/1 . css可见性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/CSS可见性/2 . Tab切换.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/Overflow溢出/10 . Overflow属性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/1 . 图片和文字垂直对齐.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/1 . 静态定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/10 . 上合案例定位部分(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/11 . 固定定位案例-新浪(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/12 . 定位的盒子居中显示.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/13 . 顺丰定位盒子.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/2 . 绝对定位-父子都使用绝对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/3 . 绝对定位-子使用绝对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/4 . 绝对定位-行内元素.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/5 . 相对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/6 . 小米定位案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/7 . 固定定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/8 . 小米案例(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/定位/9 . 小米官网案例(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/标签包含规范/1 . 标签包含规范.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/1 . 浮动原理.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/10 . 简易导航初体验(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/11 . 上合案例导航部分(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/12 . 导航作业案例(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/2 . 浮动原理2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/3 . 浮动原理3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/4 . 文本环绕.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/5 . 简单导航初体验.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/6 . 上合导航案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/7 . 浮动布局.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/8 . 网页布局及清除浮动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/浮动布局/9 . css初始化.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/1.爱宠知识(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/2.个人资料(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/3.行业动态(未完成).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/精灵图/1 . 精灵图.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/精灵图/2 . 精灵图案例.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/前端/CSS/css/规避脱标流/规避脱标流.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/三大特性/继承性.html" afterPath="$PROJECT_DIR$/前端/CSS/css/三大特性/继承性.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/1 . 块元素.html" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/1 . 块元素.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/1 . 块元素和行内元素转行内块元素.html" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/1 . 块元素和行内元素转行内块元素.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/2 . 行内元素.html" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/2 . 行内元素.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/3 . 行内块元素.html" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/3 . 行内块元素.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/4 . 块元素和行内元素互相转换.html" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/4 . 块元素和行内元素互相转换.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/images/1.png" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/images/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/元素分类/images/2.png" afterPath="$PROJECT_DIR$/前端/CSS/css/元素分类/images/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/焦点/表单控件案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/焦点/表单控件案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/不会撑大的盒子.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/不会撑大的盒子.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距属性连写2.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距属性连写3.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距属性连写4.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距边框影响盒子的宽度.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距边框影响盒子的宽度.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/内边距连写1.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距连写1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/垂直方向外边距合并.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/垂直方向外边距合并.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/外边距.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/外边距.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/外边距属性连写.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/外边距属性连写.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/嵌套的盒子外边距塌陷.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/嵌套的盒子外边距塌陷.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/继承的盒子撑大的盒子.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/继承的盒子撑大的盒子.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/行内元素和行内块元素的外边距.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/行内元素和行内块元素的外边距.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/边框内边距新浪导航案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/边框内边距新浪导航案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/盒子模型/边框影响盒子的宽度.html" afterPath="$PROJECT_DIR$/前端/CSS/css/盒子模型/边框影响盒子的宽度.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/1.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/110.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/110.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/2.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg1.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg2.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg3.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg3.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg4.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg5.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg6.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bg7.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/bgc.png" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bgc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/index-bg-v14.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/index-bg-v14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/li.gif" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/li.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/serch.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/serch.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/images/top.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/top.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/五彩导航.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/五彩导航.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/列表背景.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/列表背景.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/导航栏.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/导航栏.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/背景案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/背景案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/英雄联盟背景.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/英雄联盟背景.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/背景属性/购物车案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/背景属性/购物车案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/边框/表格边框河合并.html" afterPath="$PROJECT_DIR$/前端/CSS/css/边框/表格边框河合并.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/边框/边框属性.html" afterPath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/边框/边框属性连写.html" afterPath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性连写.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/边框/边框属性连写1.html" afterPath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性连写1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/ID选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/ID选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/google/Google案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/google/Google案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/images/xia.jpg" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/images/xia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/交集选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/交集选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/后代选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/后代选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/标签选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/标签选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/白居易案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/白居易案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/类选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/类选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/综合案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/综合案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/选择器/通配符选择器.html" afterPath="$PROJECT_DIR$/前端/CSS/css/选择器/通配符选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/链接伪类/导航案例.html" afterPath="$PROJECT_DIR$/前端/CSS/css/链接伪类/导航案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/前端/HTML/demo/css/链接伪类/链接伪类.html" afterPath="$PROJECT_DIR$/前端/CSS/css/链接伪类/链接伪类.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/3-文本框获取焦点.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/4-用户注册高亮显示.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/5-设置水果.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android/eventbus/EventBus.xmind" afterPath="$PROJECT_DIR$/android/eventbus/EventBus.xmind" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/CSS.xmind" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/1 . CSS之内容移除.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/2 . CSS之内容移除2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/CSS可见性/1 . css可见性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/CSS可见性/2 . Tab切换.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/Overflow溢出/10 . Overflow属性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/三大特性/继承性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/1 . 块元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/1 . 块元素和行内元素转行内块元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/2 . 行内元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/3 . 行内块元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/4 . 块元素和行内元素互相转换.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/images/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/元素分类/images/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/1 . 图片和文字垂直对齐.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/images/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/1 . 静态定位.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/10 . 上合案例定位部分(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/11 . 固定定位案例-新浪(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/12 . 定位的盒子居中显示.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/13 . 顺丰定位盒子.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/2 . 绝对定位-父子都使用绝对定位.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/3 . 绝对定位-子使用绝对定位.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/4 . 绝对定位-行内元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/5 . 相对定位.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/6 . 小米定位案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/7 . 固定定位.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/8 . 小米案例(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/9 . 小米官网案例(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/indicate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/sf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/定位/images/xiaom_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/标签包含规范/1 . 标签包含规范.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/1 . 浮动原理.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/10 . 简易导航初体验(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/11 . 上合案例导航部分(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/12 . 导航作业案例(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/2 . 浮动原理2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/3 . 浮动原理3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/4 . 文本环绕.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/5 . 简单导航初体验.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/6 . 上合导航案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/7 . 浮动布局.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/8 . 网页布局及清除浮动.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/9 . css初始化.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/head_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/header.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/li_bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/浮动布局/images/new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/焦点/表单控件案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/1.爱宠知识(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/2.个人资料(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/3.行业动态(未完成).html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/不会撑大的盒子.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距属性连写4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距边框影响盒子的宽度.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/内边距连写1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/垂直方向外边距合并.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/外边距.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/外边距属性连写.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/嵌套的盒子外边距塌陷.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/继承的盒子撑大的盒子.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/行内元素和行内块元素的外边距.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/边框内边距新浪导航案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/盒子模型/边框影响盒子的宽度.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/精灵图/1 . 精灵图.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/精灵图/2 . 精灵图案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/精灵图/images/qq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/精灵图/images/sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/110.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bg7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/bgc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/index-bg-v14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/li.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/serch.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/images/top.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/五彩导航.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/列表背景.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/导航栏.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/背景案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/英雄联盟背景.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/背景属性/购物车案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/规避脱标流/规避脱标流.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/边框/表格边框河合并.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性连写.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/边框/边框属性连写1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/ID选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/google/Google案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/images/xia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/交集选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/后代选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/标签选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/白居易案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/类选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/综合案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/选择器/通配符选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/链接伪类/导航案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/css/链接伪类/链接伪类.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/p标签不能嵌套div.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/p标签不能嵌套h标签.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/unicode编码.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/伸缩布局.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/图片文字对齐.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/圆的中心.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/左上角为中心.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/左边为中心.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/径向渐变.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/标签规范.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/椭圆.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/渐变圆.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/盒子模型.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/线性渐变.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/线性渐变方向.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/行高.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/设置多背景.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/输出字体的Unicode编码.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/CSS/images/边框裁剪6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/.idea/HTML.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/HTML.xmind" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css/font-awesome-ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css/font-awesome-ie7.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/变形即动画/变形及动画.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/渐变/径向渐变.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/背景/背景.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/边框圆角.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/边框阴影.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS3/过渡即动画/过渡即动画.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS三大特性/层叠性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS三大特性/继承性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS可见性/CSS可见性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS可见性/tab导航栏的制作.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/CSS引入标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/图片和文字的垂直居中/图片和文字的垂直居中.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/定位/StaticPosition.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/定位/固定定位案例.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/定位/定位的盒子居中显示.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/属性选择器/属性选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/布局/Overflow.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/布局/浮动布局.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/标签的包含规范/标签的包含规范.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/标签选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/精灵图/精灵图.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/css_study/规避脱标流/规避脱标流.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/air_temperature/air_temperature.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/images/im.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/images/jd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/images/reg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/images/yzm.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/内容页面.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/注册页面.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/登录.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/form/表单.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/h5_layout/h5_layout.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/h5_layout/js/html5shiv.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/media/media.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/media/res/1.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/media/res/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/media/res/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/media/res/cun.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/autumn.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/images/chun.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/images/dong.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/images/qiu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/images/xia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/spring.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/summer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/season/winter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/sports/sports.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/syllabus/images/down.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/syllabus/images/up.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/syllabus/小说排行榜.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/syllabus/细线表格.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/demo/html/syllabus/课程表.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/font/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/HTML结构.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/列表.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/单标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/压缩文件下载.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/双标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/图片标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/快捷键.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/滚动.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/特殊字符.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/空链.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/超链接.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/锚链接.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/1/音乐标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/html5文档结构.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/表单域.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/表头.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/表格.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/表格标准结构.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_4_4/2/表格标题.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/DOM扩展-类名操作.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/DOM扩展-自定义属性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/DOM扩展-获取所有符合条件的标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/DOM拓展-获取元素_1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/HTML5经典网页布局.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/HTML新的表单控件.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/传统网页布局.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/宽度百分比.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/常用新语义标签.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/新的表单控件.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/智能下拉菜单.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/表单事件.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/表单事件_1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/表单元素.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/表单属性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/表单属性_1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/视频播放.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5/音频播放.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/html_5_2/1-简单的播放器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/1.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/a_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/banner1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/banner_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/button2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/chun.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/a_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/banner1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/banner_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/box.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/button2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/m.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/my.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/nav_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/qq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/r1_c1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/r2_c1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/r2_c2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/sf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/sf_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/taobao.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/tbbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/css5/精灵图制作.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/cun.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/deom.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/dong.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/figure标签.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/html5缓存.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/img的title属性.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/lzl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/lzl.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/nav_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/qiu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/sf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/sf_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/xia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/下划线.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/下拉列表.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/分组信息.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/删除线.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/加粗.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/度量器.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/度量器2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/度量器3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/换行标签.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/文本倾斜.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/文本内容.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/智能下拉菜单.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/标题6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/段落.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/水平线.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/精灵图制作.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/网页icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/表头.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/进度条.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/images/进度条2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/javascript/study/JS中输出消息的方式.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/music/See You Again.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/561902ae6ac6e6649.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/chrome.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/copy.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/fun.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/movie.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/HTML/video/trailer.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/JavaScript/JavaScript.xmind" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/JavaScript/images/DOM结构.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/JavaScript/images/对象.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/JavaScript/images/浏览器工作原理.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/学习内容.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/前端/问题.PNG" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,11 +358,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="6-for循环为文本框赋值和取值.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -188,6 +427,15 @@
         <option value="$PROJECT_DIR$/前端/CSS/css/精灵图/1 . 精灵图.html" />
         <option value="$PROJECT_DIR$/前端/CSS/css/精灵图/2 . 精灵图案例.html" />
         <option value="$PROJECT_DIR$/前端/CSS/css/浮动布局/13 . 微信案例.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/dom/01-隐藏显示二维码1.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/dom/1 . 隐藏显示二维码.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/1-隐藏显示二维码.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.js" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/3-文本框获取焦点.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/4-用户注册高亮显示.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dom/5-设置水果.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html" />
       </list>
     </option>
   </component>
@@ -197,9 +445,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="371" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="930" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -228,6 +475,31 @@
               <item name="w" type="b2602c69:ProjectViewProjectNode" />
               <item name="w" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="w" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="w" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,16 +512,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\study\w\w\前端\JavaScript\dom" />
+      <recent name="C:\work\study\w\w\前端\JavaScript\dom\images" />
       <recent name="C:\work\study\w\w\前端\CSS\css\精灵图\images" />
       <recent name="C:\work\study\w\w\前端\CSS\css\精灵图" />
       <recent name="C:\work\study\w\w\前端\CSS\css\CSS之内容移除\images" />
-      <recent name="C:\work\study\w\w\前端\HTML\demo\css\图片和文字垂直对齐\images" />
-      <recent name="C:\work\study\w\w\前端\HTML\demo\css\定位\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\study\w\w\前端\JavaScript\dom" />
       <recent name="C:\work\study\w\w\前端\CSS\css\精灵图\images" />
       <recent name="C:\work\study\w\w\前端\CSS" />
       <recent name="C:\work\study\w\w\前端\HTML\demo\css\Overflow溢出" />
@@ -268,6 +543,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.3-文本框获取焦点.html">
+    <configuration name="01-隐藏显示二维码1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/w/前端/JavaScript/dom/01-隐藏显示二维码1.html" />
+    <configuration name="1-隐藏显示二维码.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63343/w/前端/JavaScript/dom/1-隐藏显示二维码.html" />
+    <configuration name="3-文本框获取焦点.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/w/web/JavaScript/dom/3-文本框获取焦点.html" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1-隐藏显示二维码.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.01-隐藏显示二维码1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.3-文本框获取焦点.html" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-文本框获取焦点.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-隐藏显示二维码.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.01-隐藏显示二维码1.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -282,31 +574,47 @@
       <option name="presentableId" value="Default" />
       <updated>1512868241891</updated>
       <workItem from="1512868243157" duration="17479000" />
-      <workItem from="1512905596584" duration="2765000" />
+      <workItem from="1512905596584" duration="3503000" />
+      <workItem from="1513081766029" duration="759000" />
+      <workItem from="1513082855469" duration="3003000" />
+      <workItem from="1513166821649" duration="1808000" />
+      <workItem from="1513168671075" duration="2213000" />
+      <workItem from="1513171029080" duration="2062000" />
+      <workItem from="1513253475727" duration="7606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20244000" />
+    <option name="totallyTimeSpent" value="38433000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="41" width="976" height="1038" extended-state="1" />
+    <frame x="930" y="0" width="976" height="1038" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6688172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45483872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3945268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -317,341 +625,149 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
+          <line>65</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
+          <line>54</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
+          <line>70</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
+          <line>76</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
+          <line>81</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/01-隐藏显示二维码1.html</url>
+          <line>34</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="37" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/规避脱标流/规避脱标流.html">
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/盒子模型/2.个人资料(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/盒子模型/3.行业动态(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/1 . 浮动原理.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/2 . 浮动原理2.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/3 . 浮动原理3.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/4 . 文本环绕.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/5 . 简单导航初体验.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/6 . 上合导航案例.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/8 . 网页布局及清除浮动.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/7 . 浮动布局.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/9 . css初始化.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/Overflow溢出/10 . Overflow属性.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/1 . 静态定位.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/3 . 绝对定位-子使用绝对定位.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/2 . 绝对定位-父子都使用绝对定位.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/4 . 绝对定位-行内元素.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/5 . 相对定位.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/6 . 小米定位案例.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/7 . 固定定位.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/8 . 小米案例(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/10 . 简易导航初体验(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/9 . 小米官网案例(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/11 . 上合案例导航部分(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/10 . 上合案例定位部分(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/11 . 固定定位案例-新浪(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/12 . 导航作业案例(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/12 . 定位的盒子居中显示.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/images/sf.png" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/13 . 顺丰定位盒子.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/标签包含规范/1 . 标签包含规范.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/1 . 图片和文字垂直对齐.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/规避脱标流/规避脱标流.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS可见性/1 . css可见性.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS可见性/2 . Tab切换.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/2 . CSS之内容移除2.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/1 . CSS之内容移除.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/精灵图/2 . 精灵图案例.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/精灵图/1 . 精灵图.html" />
+    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/13 . 微信案例(未完成).html" />
+    <entry file="file://$PROJECT_DIR$/manager/ActivityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="792">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/1 . 图片和文字垂直对齐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/盒子模型/1.爱宠知识(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/盒子模型/2.个人资料(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/盒子模型/3.行业动态(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/1 . 浮动原理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="67" column="38" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/2 . 浮动原理2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/3 . 浮动原理3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/4 . 文本环绕.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/5 . 简单导航初体验.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/6 . 上合导航案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/8 . 网页布局及清除浮动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/7 . 浮动布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/9 . css初始化.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/Overflow溢出/10 . Overflow属性.html">
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/dom/images/qrCode.png" />
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/dom/images/bgs.png" />
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/dom/01-隐藏显示二维码1.html" />
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html" />
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/1 . 静态定位.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/1-隐藏显示二维码.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="1">
+          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/3 . 绝对定位-子使用绝对定位.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="72">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/2 . 绝对定位-父子都使用绝对定位.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/3-文本框获取焦点.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="379">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/4 . 绝对定位-行内元素.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/4-用户注册高亮显示.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/5 . 相对定位.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/5-设置水果.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="415">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/6 . 小米定位案例.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/7 . 固定定位.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/8 . 小米案例(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/10 . 简易导航初体验(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/9 . 小米官网案例(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/11 . 上合案例导航部分(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/10 . 上合案例定位部分(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/11 . 固定定位案例-新浪(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/12 . 导航作业案例(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/12 . 定位的盒子居中显示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/images/sf.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/定位/13 . 顺丰定位盒子.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/标签包含规范/1 . 标签包含规范.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/图片和文字垂直对齐/1 . 图片和文字垂直对齐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/规避脱标流/规避脱标流.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS可见性/1 . css可见性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS可见性/2 . Tab切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/2 . CSS之内容移除2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/CSS之内容移除/1 . CSS之内容移除.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/精灵图/2 . 精灵图案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/精灵图/1 . 精灵图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/css/浮动布局/13 . 微信案例(未完成).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="667">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding />
         </state>
       </provider>

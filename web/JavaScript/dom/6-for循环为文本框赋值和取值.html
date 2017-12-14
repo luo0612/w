@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for循环为文本框赋值和取值</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            //1. 获取事件源
+            var inputArray = document.getElementsByTagName("input");
+            var buttonArray = document.getElementsByTagName("button");
+
+            //2.绑定事件
+            //2.1.赋值操作
+            buttonArray[0].onclick = function () {
+                for (var i = 0; i < inputArray.length; i++) {
+                    inputArray[i].value = i;
+                }
+            }
+
+            //2.2.获取值
+            buttonArray[1].onclick = function () {
+                var newArray = [];
+                for (var i = 0; i < inputArray.length; i++) {
+                    //在数组后面插入元素, 返回数组的长度
+                    var len = newArray.push(inputArray[i].value);
+                    console.log("数组的长度 : " + len);
+                }
+                console.log(newArray.join("-"));
+            }
+
+        }
+    </script>
+</head>
+<body>
+<input type="text"><br><br>
+<input type="text"><br><br>
+<input type="text"><br><br>
+<input type="text"><br><br>
+<input type="text"><br><br>
+<input type="text"><br><br>
+<button>赋值</button>
+<br><br>
+<button>取值</button>
+<br><br>
+</body>
+</html>
