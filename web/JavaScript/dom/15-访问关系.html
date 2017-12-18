@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>访问关系</title>
+    <style>
+        li {
+            list-style: none;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 5px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var box3 = document.getElementById("box3");
+
+            //1.parentNode : 获取父节点
+            box3.parentNode.style.backgroundColor = "blue";
+
+            //2.兄弟节点
+            //previousElementSibling和nextElementSibling在IE678中不支持.
+            //IE678不能获取文本节点
+            //2.1.previousSibling : 前一个
+            //box3.previousElementSibling.style.backgroundColor = "red";
+            //2.2.nextSibling : 后一个
+            //box3.nextElementSibling.style.backgroundColor = "yellow";
+
+            //最新的Chrome浏览器不支持
+            //box3.previousSibling.style.backgroundColor = "red"
+            //box3.nextSibling.style.backgroundColor = "yellow";
+
+            var pre = box3.previousElementSibling || box3.previousSibling;
+            var next = box3.nextElementSibling || box3.nextSibling;
+            pre.style.backgroundColor = "red";
+            next.style.backgroundColor = "yellow";
+
+            //3.单个子元素
+            //firstChild : 第一个子元素
+            //lastChild : 最后一个子元素
+            var first = box3.parentNode.firstElementChild || box3.parentNode.firstChild;
+            var last = box3.parentNode.lastElementChild || box3.parentNode.lastChild;
+            first.style.backgroundColor = "orange";
+            last.style.backgroundColor = "green";
+
+            //4.所有子元素
+            //最新的浏览器不支持
+            var arr = box3.parentNode.children;
+            console.log(arr)
+            for (var i = 0; i < arr.length; i++) {
+                arr[i].style.backgroundColor = "black";
+            }
+
+            arr = box3.parentNode.childNodes;
+            for (var i = 0; i < arr.length; i++) {
+                //nodeType : 1是标签,2是属性,3是文本
+                if (arr[i].nodeType === 1) {
+                    console.log(arr[i]);
+                }
+            }
+
+            //5.获取指定的兄弟节点
+            var index = 0;
+            var node = box3.parentNode.children[index];
+            node.style.backgroundColor = "red";
+
+            var a = siblings(box3);
+            console.log(a);
+
+            //6.获取所有的兄弟节点
+            function siblings(element) {
+                var a = [];
+                var p = element.parentNode.children;
+                for (var i = 0; i < p.length; i++) {
+                    //!== 不全等于 不仅判断内容是否不相同 , 还判断数据类型是否不相同
+                    //只有当内容相同且数据类型相同时为true
+                    if (p[i] !== element) {
+                        a.push(p[i]);
+                    }
+                }
+                return a;
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<ul>
+    <li class="box1"></li>
+    <li class="box2"></li>
+    <li id="box3"></li>
+    <li class="box4"></li>
+    <li class="box5"></li>
+</ul>
+</body>
+</html>

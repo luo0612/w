@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM的内置方法内置对象体验</title>
+</head>
+<body>
+<a href="javascript:;">点击我可以创建一个新的页面</a>
+<a href="javascript:;">点击我可以关闭创建的页面</a>
+<div>点击我跳转到百度</div>
+<script>
+    //新窗口 = window.open(地址,是否开新窗口,新窗口参数);
+    var a1 = document.getElementsByTagName("a")[0];
+    var a2 = document.getElementsByTagName("a")[1];
+    a1.onclick = function () {
+        //在新的页面打开京东
+        //window.open("http://www.jd.com", "_blank");
+        var json = {
+            "name": "helloworld",//新窗口的名称
+            "fullscreen": "no",//是否全屏默认为no ; yes/no/1/0
+            "location": "no",//是否显示地址栏默认为no ; yes/no/1/0
+            "width": "100px",//窗口宽度 , 像素单位
+            "height": "100px",//窗口高度 , 像素单位
+            "top": "100px",//窗口离屏幕顶部距离单位 , 像素单位
+            "left": "100px"//窗口离屏幕左边缘距离 , 像素单位
+        };
+        var newWin = window.open("1-window对象.html", "_blank", json);
+        //newWin.moveTo(500, 500);//设置之后 , 上面的属性才起作用
+
+    }
+    // a2.onclick = function () {
+    //     window.close();
+    // }
+    var div = document.getElementsByTagName("div")[0];
+    div.onclick = function () {
+        location.href = "http://www.baidu.com";
+        //window.open("http://www.baidu.com", "_blank");
+        console.log(location.href);//"http://localhost:63342/w/web/JavaScript/bom/2.BOM%E7%9A%84%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1%E4%BD%93%E9%AA%8C.html"
+        console.log(location.hash);//返回url中#后面的内容 ,包含#
+        console.log(location.host);//主机名 , 包含端口  "localhost:63342"
+        console.log(location.hostname);//主机名 "localhost"
+        console.log(location.pathname);//url中的路径部分 "/w/web/JavaScript/bom/2.BOM%E7%9A%84%E5%86%85%E7%BD%AE%E6%96%B9%E6%B3%95%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1%E4%BD%93%E9%AA%8C.html"
+        console.log(location.protocol);//协议 , 一般是http , https  "http:"
+        console.log(location.search);//查询的字符串 ""
+
+        //navigator
+        console.log(navigator.userAgent);// "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+        console.log(navigator.platform);// "Win32"
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window对象</title>
+</head>
+<body>
+<script>
+    //window是bom的顶级对象 . 通常情况下 , 可以省略
+    //window.alert(1);
+    //alert(2);
+    //prompt();
+    //confirm();
+
+    //成员变量也是window的一个属性而已
+    var aaa = 1;
+    alert(aaa);//1
+    alert(window.aaa);//1
+    alert(aaa === window.aaa);//true
+
+    function fn() {
+        console.log(1);
+        console.log(1);
+        console.log(1);
+        console.log(1);
+    }
+
+    console.log(window.fn);
+    /*
+    ƒ fn() {
+        console.log(1);
+        console.log(1);
+        console.log(1);
+        console.log(1);
+    }
+     */
+
+</script>
+</body>
+</html>

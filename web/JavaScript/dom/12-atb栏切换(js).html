@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab栏切换(js)</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .box {
+            width: 500px;
+            height: 400px;
+            border: 1px solid #cccccc;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        ul {
+            width: 600px;
+            height: 40px;
+            margin-left: -1px;
+            /*去除原本的样式*/
+            list-style: none;
+        }
+
+        li {
+            float: left;
+            width: 101px;
+            height: 40px;
+            text-align: center;
+            font: 600 18px/40px "simsun";
+            background-color: pink;
+            /*设置鼠标样式*/
+            cursor: pointer;
+        }
+
+        span {
+            display: none;
+            width: 500px;
+            height: 360px;
+            background-color: yellow;
+            text-align: center;
+            font: 700 150px/360px "simsun";
+        }
+
+        .show {
+            display: block;
+        }
+
+        .current {
+            background-color: yellow;
+        }
+    </style>
+    <script type="text/javascript">
+        //需求:
+        //1.鼠标放置的li , li本身变色(添加类) , 对应的span也显示出来(添加类)
+        //步骤:
+        //1.获取事件源
+        //2.绑定事件
+        //3.书写事件驱动程序
+        window.onload = function () {
+            var liArray = document.getElementsByTagName("li");
+            var spanArray = document.getElementsByTagName("span");
+            //绑定事件
+            for (var i = 0; i < liArray.length; i++) {
+                liArray[i].index = i;
+                liArray[i].onmouseover = function () {
+                    for (var j = 0; j < spanArray.length; j++) {
+                        if (this.index === j) {
+                            this.className = "current";
+                            spanArray[j].className = "show";
+                        } else {
+                            liArray[j].className = "";
+                            spanArray[j].className = "";
+                        }
+                    }
+                }
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li class="current">鞋子</li>
+        <li>袜子</li>
+        <li>帽子</li>
+        <li>裤子</li>
+        <li>裙子</li>
+    </ul>
+    <span class="show">鞋子</span>
+    <span>袜子</span>
+    <span>帽子</span>
+    <span>裤子</span>
+    <span>裙子</span>
+</div>
+</body>
+</html>

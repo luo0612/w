@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>访问关系封装</title>
+    <style type="text/css">
+        li {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 5px;
+            list-style: none;
+        }
+    </style>
+    <script src="tools.js"></script>
+    <script>
+        window.onload = function () {
+            //获取指定id的节点
+            var box = getElement("box");
+            box.style.backgroundColor = "red";
+
+            //获取节点的父节点 , 第一个和最后一个子节点
+            var parent = box.parentNode;
+            getFirstNode(parent).style.backgroundColor = "yellow";
+            getLastNode(parent).style.backgroundColor = "yellow";
+
+            //获取上一个和下一个兄弟节点
+            getPrevNode(box).style.backgroundColor = "red";
+            getNextNode(box).style.backgroundColor = "red";
+
+            //指定兄弟节点
+            getElementOfIndex(box, 0).style.backgroundColor = "green";
+            getElementOfIndex(box, 1).style.backgroundColor = "green";
+
+            //获取所有的兄弟节点
+            var arr = getAllSiblings(box);
+            for (var i = 0; i < arr.length; i++) {
+                arr[i].style.backgroundColor="black";
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<ul>
+    <li></li>
+    <li></li>
+    <li id="box"></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>

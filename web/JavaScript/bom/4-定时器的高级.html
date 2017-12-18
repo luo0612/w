@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器的高级</title>
+</head>
+<body>
+<script>
+    var num = 1;
+    var timer = setInterval(function () {
+        console.log(num);
+        num++;
+        if (num === 10) {
+            clearInterval(timer);
+        }
+    },500);
+</script>
+</body>
+</html>

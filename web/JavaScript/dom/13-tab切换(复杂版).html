@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab切换(复杂版)</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .box {
+            width: 500px;
+            height: 400px;
+            border: 1px solid #cccccc;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        ul {
+            list-style: none;
+            width: 600px;
+            height: 40px;
+            margin-left: -1px;
+        }
+
+        li {
+            float: left;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            font: 600 18px/40px "simsun";
+            background-color: pink;
+            /*设置鼠标样式*/
+            cursor: pointer;
+        }
+
+        span {
+            display: none;
+            width: 500px;
+            height: 360px;
+            background-color: yellow;
+            text-align: center;
+            font: 700 150px/360px "simsun";
+        }
+
+        .show {
+            display: block;
+        }
+
+        .current {
+            background-color: yellow;
+        }
+    </style>
+
+    <script type="text/javascript">
+        //需求:
+        //鼠标放置li上面 , li本身变色(添加class) , 对应的span也显示出来(添加class)
+        //思路:
+        //1.点亮盒子
+        //2.利用索引显示盒子
+        //步骤:
+        //1.获取事件源和相关元素
+        //2.绑定事件
+        //3.书写事件驱动程序(排他思想)
+        window.onload = function () {
+            var boxArray = document.getElementsByClassName("box");
+            for (var i = 0; i < boxArray.length; i++) {
+                fn(boxArray[i]);
+            }
+
+            /**
+             * 函数封装
+             * @param element
+             */
+            function fn(element) {
+                var liArray = element.getElementsByTagName("li");
+                var spanArray = element.getElementsByTagName("span");
+                //绑定事件
+                for (var i = 0; i < liArray.length; i++) {
+                    liArray[i].setAttribute("index", i);
+                    liArray[i].onmouseover = function () {
+                        //书写驱动程序 , 排他思想
+                        //1.点亮盒子
+                        //2.利用索引值显示盒子
+                        for (var j = 0; j < spanArray.length; j++) {
+                            liArray[j].removeAttribute("class");
+                            spanArray[j].removeAttribute("class");
+                        }
+                        this.setAttribute("class", "current");
+                        spanArray[this.getAttribute("index")].setAttribute("class", "show");
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li class="current">鞋子</li>
+        <li>袜子</li>
+        <li>帽子</li>
+        <li>裤子</li>
+        <li>裙子</li>
+    </ul>
+    <span class="show">鞋子</span>
+    <span>袜子</span>
+    <span>帽子</span>
+    <span>裤子</span>
+    <span>裙子</span>
+</div>
+<div class="box">
+    <ul>
+        <li class="current">鞋子</li>
+        <li>袜子</li>
+        <li>帽子</li>
+        <li>裤子</li>
+        <li>裙子</li>
+    </ul>
+    <span class="show">鞋子</span>
+    <span>袜子</span>
+    <span>帽子</span>
+    <span>裤子</span>
+    <span>裙子</span>
+
+</div>
+<div class="box">
+    <ul>
+        <li class="current">鞋子</li>
+        <li>袜子</li>
+        <li>帽子</li>
+        <li>裤子</li>
+        <li>裙子</li>
+    </ul>
+    <span class="show">鞋子</span>
+    <span>袜子</span>
+    <span>帽子</span>
+    <span>裤子</span>
+    <span>裙子</span>
+
+</div>
+</body>
+</html>

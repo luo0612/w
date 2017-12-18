@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐藏盒子</title>
+    <script>
+        window.onload = function () {
+            //获取盒子
+            var box = document.getElementsByClassName("box")[0];
+            //第一种方式
+            // box.style.width = "100px";
+            // box.style.height = "100px";
+            // box.style.backgroundColor = "pink";
+            //第二种方式
+            box.style.cssText = "width:100px;height:100px;background-color:red";
+
+            box.onclick = function () {
+                //第一种方式 , 不占据原来的位置
+                this.style.display = "none";
+                //第二种方式 , 还占据原来的位置
+                // this.style.visibility = "hidden";
+                //第三种方式 , 还占据原来的位置
+                //this.style.opacity = "0";
+                //第四种方式 , 脱标 , 不占据原来的位置
+                // this.style.position = "absolute";
+                //this.style.top = "-80px";
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

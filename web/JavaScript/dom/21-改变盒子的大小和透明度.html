@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改变盒子的大小和透明度</title>
+    <script>
+        window.onload = function () {
+            var div = document.getElementsByTagName("div")[0];
+            div.onmouseover = function () {
+                div.style.width = "200px";
+                div.style.height = "200px";
+                div.style.backgroundColor = "black";
+                /*opacity:不透明*/
+                div.style.opacity = "0.2";
+                /*滤镜效果*/
+                div.style.filter = "alpha(opacity=20)"
+            }
+        }
+    </script>
+</head>
+<body>
+<div style="width: 100px;height: 100px;background-color: pink;"></div>
+</body>
+</html>

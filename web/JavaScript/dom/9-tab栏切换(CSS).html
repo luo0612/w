@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab栏切换(CSS)</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .box {
+            width: 500px;
+            height: 400px;
+            /*solid : 固体的*/
+            border: 1px solid #cccccc;
+            margin: 100px auto;
+            /*溢出部分进行隐藏*/
+            overflow: hidden;
+        }
+
+        ul {
+            width: 600px;
+            height: 40px;
+            /*因为ul到box有1px的间距*/
+            margin-left: -2px;
+            list-style: none;
+        }
+
+        li {
+            /*设置左浮动*/
+            float: left;
+            width: 101px;
+            height: 40px;
+            text-align: center;
+            font: 600 18px/40px "simsun";
+            background-color: pink;
+            /*设置鼠标显示的样式*/
+            cursor: pointer;
+        }
+
+        span {
+            display: none;
+            width: 500px;
+            height: 360px;
+            background-color: yellow;
+            text-align: center;
+            font: 700 150px/360px "simsun";
+        }
+
+        .show {
+            display: block;
+        }
+
+        .current {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li class="current">鞋子</li>
+        <li>袜子</li>
+        <li>帽子</li>
+        <li>裤子</li>
+        <li>裙子</li>
+    </ul>
+    <span class="show">鞋子</span>
+    <span>袜子</span>
+    <span>帽子</span>
+    <span>裤子</span>
+    <span>裙子</span>
+</div>
+
+
+
+</body>
+</html>

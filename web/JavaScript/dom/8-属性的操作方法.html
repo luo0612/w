@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性的操作方法</title>
+    <script>
+        window.onload = function () {
+            //两种方式不能交换使用 , 赋值和获取值必须使用一种方法
+            var box = document.getElementById("box")
+            //元素节点.属性(元素节点[属性]):绑定的属性值不会出现在标签上
+            box.aaaa = "111";
+            console.log(box.aaaa);
+
+            //get/set/removeAttribute:绑定的属性值会出现在标签上
+            box.setAttribute("bbbb", "222");
+            console.log(box.getAttribute("bbbb"));
+            console.log(box.bbbb);//undefined
+        }
+    </script>
+</head>
+<body>
+<div id="box" title="主体" class="asdfasdfasdfd">我爱你中国</div>
+</body>
+</html>

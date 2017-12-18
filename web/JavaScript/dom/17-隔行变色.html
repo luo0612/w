@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隔行变色</title>
+    <style type="text/css">
+        ul {
+            width: 1210px;
+            margin: 100px auto;
+        }
+
+        li {
+            height: 34px;
+            cursor: pointer;
+            font: 500 16px/34px "simsun";
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var ul = document.getElementsByTagName("ul")[0];
+            var arr = ul.childNodes;
+
+            //获取所有的元素节点
+            var newArr = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].nodeType === 1) {
+                    newArr.push(arr[i]);
+                }
+            }
+
+            for (var i = 0; i < newArr.length; i++) {
+                if (i % 2 != 0) {
+                    newArr[i].style.backgroundColor = "red";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<ul>
+    <li>北京股指 3063.31-22.18 (-0.72%)</li>
+    <li>上海股指 3063.31-22.18 (-0.72%)</li>
+    <li>广州股指 3063.31-22.18 (-0.72%)</li>
+    <li>深圳股指 3063.31-22.18 (-0.72%)</li>
+    <li>北京股指 3063.31-22.18 (-0.72%)</li>
+    <li>上海股指 3063.31-22.18 (-0.72%)</li>
+    <li>广州股指 3063.31-22.18 (-0.72%)</li>
+    <li>深圳股指 3063.31-22.18 (-0.72%)</li>
+</ul>
+</body>
+</html>

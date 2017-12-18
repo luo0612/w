@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择水果(简单版)</title>
+    <style type="text/css">
+        select {
+            width: 170px;
+            height: 200px;
+            font-size: 16px;
+            background-color: #a4ff43;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var sel1 = document.getElementById("sel1");
+            var sel2 = document.getElementById("sel2");
+            var inputArray = document.getElementsByTagName("input");
+
+            inputArray[0].onclick = function () {
+                //获取子元素 , 整体添加到另外一边的标签中
+                var arr = sel1.children;
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    console.log(arr[0]);
+                    //TODO
+                    sel2.appendChild(arr[0]);
+                }
+            }
+
+            inputArray[1].onclick = function () {
+                var arr = sel2.children;
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    sel1.appendChild(arr[0]);
+                }
+            }
+
+            //需求:点击>和<两个按钮 , 所有被选定的子元素都跑到对方的标签中
+            //思路:
+            //1. 获取所有子节点 , 然后循环判断 ,
+            //只有selected属性值为true的选项才能被添加到右侧的select标签中
+            inputArray[2].onclick = function () {
+                var arr = sel1.children;
+                //遍历判断数字中的元素selected属性为true的,
+                //添加到想法的select标签中
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    if (arr[i].selected === true) {
+                        sel2.appendChild(arr[i]);
+                    }
+                }
+            }
+
+            inputArray[3].onclick = function () {
+                var arr = sel2.children;
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    if (arr[i].selected === true) {
+                        sel1.appendChild(arr[i]);
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<select id="sel1" size="10" multiple="multiple" name="">
+    <option value="0">香蕉</option>
+    <option value="1">苹果</option>
+    <option value="2">鸭梨</option>
+    <option value="3">葡萄</option>
+</select>
+<input type="button" value=">>>">
+<input type="button" value="<<<">
+<input type="button" value=">">
+<input type="button" value="<">
+<select name="" id="sel2" size="10" multiple></select>
+</body>
+</html>

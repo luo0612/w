@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择水果(终极版)</title>
+    <style>
+        select {
+            width: 150px;
+            height: 200px;
+            background-color: #7bff68;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            //需求:
+            //点击按钮吧对应的选中项移动到另一侧
+            //技术点:
+            //如果移动单一的选项,那么直接选择selected的选项
+            //如果是移动所有的选项, 那么直接把sel1中的所有选项放入sel2中
+
+            var sel1 = document.getElementById("sel1");
+            var sel2 = document.getElementById("sel2");
+            var inputArray = document.getElementsByTagName("input");
+
+            //绑定事件
+            //push和appendChild用法相似 , 但是一个是控制数组 , 一个是控制元素节点
+            inputArray[0].onclick = function () {
+                var optArr = sel1.children;
+                for (var i = 0; i < optArr.length;) {
+                    sel2.appendChild(optArr[i]);
+                }
+            }
+
+            inputArray[1].onclick = function () {
+                var optArr = sel2.children;
+                for (var i = 0; i < optArr.length;) {
+                    sel1.appendChild(optArr[i]);
+                }
+            }
+
+            inputArray[2].onclick = function () {
+                var optArr = sel1.children;
+                for (var i = optArr.length - 1; i >= 0; i--) {
+                    if (optArr[i].selected === true) {
+                        optArr[i].selected = false;
+                        sel2.appendChild(optArr[i]);
+                    }
+                }
+
+                var aaa = Array.from(sel2.children).sort(function (a, b) {
+                    return a.value - b.value;
+                });
+
+                for (var i = 0; i < sel2.children.length; i++) {
+                    sel2.removeChild(sel2.children[i]);
+                }
+                for (var i = 0; i < aaa.length; i++) {
+                    sel2.appendChild(aaa[i]);
+                }
+
+            }
+
+            inputArray[3].onclick = function () {
+                var optArr = sel2.children;
+                for (var i = optArr.length - 1; i >= 0; i--) {
+                    if (optArr[i].selected === true) {
+                        optArr[i].selected = false;
+                        sel1.appendChild(optArr[i]);
+                    }
+                }
+                var aaa = Array.from(sel1.children).sort(function (a, b) {
+                    return a.value - b.value;
+                })
+
+                for (var i = 0; i < sel1.children.length; i++) {
+                    sel1.removeChild(sel1.children[i]);
+                }
+
+                for (var i = 0; i < aaa.length; i++) {
+                    sel1.appendChild(aaa[i]);
+                }
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<select size="10" name="aaa" id="sel1" multiple="multiple">
+    <option value="0">1香蕉</option>
+    <option value="1">2苹果</option>
+    <option value="2">3大鸭梨</option>
+    <option value="3">4草莓</option>
+</select>
+
+<input type="button" value=">>>"/>
+<input type="button" value="<<<"/>
+<input type="button" value=">"/>
+<input type="button" value="<"/>
+
+<select size="10" name="bbb" id="sel2" multiple="multiple">
+
+</select>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择水果(封装版本)</title>
+    <style>
+        select {
+            width: 170px;
+            height: 200px;
+            font-size: 16px;
+            background-color: #a4ff43;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var sel1 = document.getElementById("sel1");
+            var sel2 = document.getElementById("sel2");
+            var inputArray = document.getElementsByTagName("input");
+
+            inputArray[0].onclick = function () {
+                fn1(sel1, sel2);
+            }
+            inputArray[1].onclick = function () {
+                fn1(sel2, sel1);
+            }
+            inputArray[2].onclick = function () {
+                fn2(sel1, sel2);
+            }
+            inputArray[3].onclick = function () {
+                fn2(sel2, sel1);
+            }
+
+            function fn1(element1, element2) {
+                var arr = element1.children;
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    element2.appendChild(arr[0]);
+                }
+            }
+
+            function fn2(element1, element2) {
+                var arr = element1.children;
+                for (var i = arr.length - 1; i >= 0; i--) {
+                    if (arr[i].selected === true) {
+                        arr[i].selected = false;
+                        element2.appendChild(arr[i]);
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<select name="" id="sel1" size="10" multiple>
+    <option value="0">香蕉</option>
+    <option value="1">苹果</option>
+    <option value="2">鸭梨</option>
+    <option value="3">葡萄</option>
+</select>
+<input type="button" value=">>>"/>
+<input type="button" value="<<<"/>
+<input type="button" value=">"/>
+<input type="button" value="<"/>
+<select name="" id="sel2" size="10" multiple>
+
+</select>
+</body>
+</html>

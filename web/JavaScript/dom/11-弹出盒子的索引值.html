@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出盒子的索引值</title>
+    <style type="text/css">
+        button {
+            margin: 10px;
+            width: 100px;
+            height: 40px;
+            /*显示鼠标的样式*/
+            cursor: pointer;
+        }
+
+        .current {
+            background-color: yellow;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var buttonArray = document.getElementsByTagName("button");
+            for (var i = 0; i < buttonArray.length; i++) {
+                buttonArray[i].index = i;
+                buttonArray[i].onmouseover = function () {
+                    for (var j = 0; j < buttonArray.length; j++) {
+                        var btn = buttonArray[j];
+                        if (btn === this) {
+                            alert(j);
+                            this.className = "current";
+                        } else {
+                            buttonArray[j].className = "";
+                        }
+                        //buttonArray[j].className = "";
+                    }
+                    //this.className = "current";
+                    //alert(this.index); 该处是通过设置属性的方式 , 让每个控件记住自己的索引值 , 然后当执行到事件时 ,取出索引值 , 类似android中的View.tag属性
+                    //alert(i);//i始终为5 , 因为当执行到此处的时候 , 第一次for循环已经走完 , 最后一个i++ , 导致最终i=5;
+                    //所以提示出来的消息始终未5
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<button>按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<button>按钮4</button>
+<button>按钮5</button>
+</body>
+</html>

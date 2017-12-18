@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全选反选</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 300px;
+            /*距离顶部100px , 居中显示*/
+            margin: 100px auto;
+
+        }
+
+        table {
+            width: 300px;
+            /*边框间距为0*/
+            border-spacing: 0;
+            /*边框折叠*/
+            /*collspase : 折叠*/
+            border-collapse: collapse;
+            border: 1px solid #c0c0c0;
+        }
+
+        th, td {
+            border: 1px solid #d0d0d0;
+            color: #404060;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #09c;
+            font: bold 16px "微软雅黑";
+            color: #ffffff;
+        }
+
+        td {
+            font: 14px "微软雅黑";
+        }
+
+        tbody tr {
+            background-color: #f0f0f0;
+        }
+
+        tbody tr:hover {
+            /*cursor规则是设定网页浏览时用户鼠标指针的样式，也就是鼠标的图形形状
+              cursor：pointer设定鼠标的形状为一只伸出食指的手，这也是绝大多数浏览器里面鼠标停留在网页链接上方时候的样式
+              另外可以选择其他鼠标指针样式，常用的有default 箭头，crosshair 十字，progress 箭头和沙漏等等*/
+            cursor: pointer;
+            background-color: #fafafa;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            //需求:
+            //1.点击最上面的input , 下面进行全选或者反选
+            //思路:
+            //1.获取上面的input按钮, 只需要判断checked属性是true , 还是false
+            var topInput = document.getElementById("theadInput");
+            var tbody = document.getElementById("tbody");
+            var tbodyInputArray = tbody.getElementsByTagName("input");
+            topInput.onclick = function () {
+                for (var i = 0; i < tbodyInputArray.length; i++) {
+                    /*此处的this表示当用方法的对象 , topInput*/
+                    tbodyInputArray[i].checked = this.checked;
+                }
+            }
+
+            //需求:
+            //1.点击下面的input , 如果下面的全部选定了 , 上面的全选 , 否则相反
+            //思路:
+            //1.为下面的每一个input绑定事件 , 每点击一次都判断所有的按钮
+            //checked属性值是否全部都是true , 如果有一个为false ,
+            //那么上面的input的checked属性也是false ,
+            // 都是true , topInput的checked为true
+            for (var i = 0; i < tbodyInputArray.length; i++) {
+                //开闭原则
+                tbodyInputArray[i].onclick = function () {
+                    var bool = true;
+                    for (var j = 0; j < tbodyInputArray.length; j++) {
+                        if (tbodyInputArray[j].checked === false) {
+                            bool = false;
+                        }
+                    }
+                    topInput.checked = bool;
+                }
+
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <table>
+        <thead>
+        <tr>
+            <th>
+                <input type="checkbox" id="theadInput">
+            </th>
+            <th>菜名</th>
+            <th>饭店</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>地三鲜</td>
+            <td>田老师</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>西红柿鸡蛋</td>
+            <td>田老师</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>醋溜土豆丝</td>
+            <td>田老师</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>萝卜干炒黄豆儿</td>
+            <td>田老师</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

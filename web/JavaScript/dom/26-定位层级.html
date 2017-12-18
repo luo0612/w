@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位层级</title>
+    <style>
+        div {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            /*设置层级*/
+            z-index: 1;
+        }
+
+        img {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+        }
+    </style>
+    <script>
+        //需求:
+        //点击按钮 , 让盒子和图片同时移开 , 并且 , 图片压住盒子
+        window.onload = function () {
+            var btn = document.getElementsByTagName("button")[0];
+            var div = document.getElementsByTagName("div")[0];
+            var img = document.getElementsByTagName("img")[0];
+            btn.onclick = function () {
+                div.style.top = "300px";
+                div.style.left = "300px";
+
+                img.style.top = "300px";
+                img.style.left = "300px";
+                img.style.zIndex = "2";
+            }
+
+        }
+    </script>
+</head>
+<body>
+<button>动!!!</button>
+<div></div>
+<img src="images/mm.png" width="200px">
+</body>
+</html>

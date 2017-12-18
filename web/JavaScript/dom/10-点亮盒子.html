@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点亮盒子</title>
+    <style type="text/css">
+        button {
+            margin: 10px;
+            width: 100px;
+            height: 40px;
+            /*设置鼠标的显示方式*/
+            cursor: pointer;
+        }
+
+        .current {
+            background-color: yellow;
+        }
+    </style>
+
+    <script>
+        //需求 :
+        //1.鼠标放在哪个button上 , 修改button变成黄色背景(添加类)
+        //步骤:
+        //1.获取事件源
+        //2.绑定事件
+        //3.书写事件驱动程序
+        window.onload = function () {
+            var buttonArray = document.getElementsByTagName("button");
+            for (var i = 0; i < buttonArray.length; i++) {
+                //排他思想
+                //以下几种方式 , 都可实现
+                buttonArray[i].onmouseover = function () {
+                    for (var j = 0; j < buttonArray.length; j++) {
+                        var btn = buttonArray[j];
+                        if (btn === this) {
+                            btn.setAttribute("class", "current");
+                            //btn.className = "current";
+                        } else {
+                            btn.removeAttribute("class");
+                            //btn.className = "";
+                        }
+                        //buttonArray[j].className = "";
+                    }
+                    //this.className = "current";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<button>按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<button>按钮4</button>
+<button>按钮5</button>
+</body>
+</html>

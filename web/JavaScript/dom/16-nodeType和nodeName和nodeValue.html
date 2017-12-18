@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nodeType和nodeName和nodeValue</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            //获取元素节点
+            var element = document.getElementById("box");
+            //获取属性节点
+            var att = element.getAttributeNode("id");
+            var text = element.firstChild;
+
+            //nodeType
+            console.log(element.nodeType);//1 元素
+            console.log(att.nodeType);//2 属性
+            console.log(text.nodeType);//3 文本
+
+            //nodeName
+            console.log(element.nodeName);//DIV
+            console.log(att.nodeName);//id
+            console.log(text.nodeName);//#text
+
+            //nodeValue
+            console.log(element.nodeValue);//null
+            console.log(att.nodeValue);//box
+            console.log(text.nodeValue);//你好
+
+        }
+    </script>
+</head>
+<body>
+<div id="box" value="111">你好</div>
+</body>
+</html>

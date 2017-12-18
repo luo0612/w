@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度皮肤</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            /*设置背景*/
+            background: url("images/1.jpg") no-repeat;
+        }
+
+        .box {
+            height: 165px;
+            padding-top: 35px;
+            /*设置居中*/
+            text-align: center;
+            /*设置背景透明*/
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        img {
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            //需求:点击图片 , body的背景图修改
+            //步骤:
+            //1.获取事件源
+            //2.绑定事件
+            //3.书写事件驱动程序
+            var box = document.getElementsByClassName("box")[0];
+
+            //body的获取 , js内部自动进行优化
+            var body = document.body;
+            var imgArray = box.children;
+
+            //绑定事件
+            for (var i = 0; i < imgArray.length; i++) {
+                imgArray[i].index = i;
+                imgArray[i].onclick = function () {
+                    body.style.backgroundImage = "url(" + this.src + ")";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="box">
+    <img src="images/1.jpg" alt="" width="200px">
+    <img src="images/2.jpg" alt="" width="200px">
+    <img src="images/3.jpg" alt="" width="200px">
+    <img src="images/4.jpg" alt="" width="200px">
+    <img src="images/5.jpg" alt="" width="200px">
+</div>
+</body>
+</html>

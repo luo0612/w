@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格操作</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+</table>
+<script>
+    window.onload = function () {
+        //rows:返回值时数组 (只读 , table和textarea能用)
+        var tab = document.getElementsByTagName("table")[0];
+        console.log(tab);
+
+        //insertRow()(只有table能用)
+        var tr = document.createElement("tr");//无法创建
+        var aaa = tab.insertRow(1);//指定索引值之前插入tr
+        //deleteRow()(只有table能调用)
+        //tab.deleteRow(1);
+        console.log(aaa == tr);//false
+        console.log(aaa);//<tr><tr>
+        console.log(tr);//<tr><tr>
+        console.log(tab.rows);//HTMLCollection(2) [tr, tr]
+
+        //cells (只读 , tr和textarea能用)
+        var ce = tab.children[0];
+        console.log(ce);
+        console.log(ce.children[0].cells);//HTMLCollection(4) [td, td, td, td]
+        //insertCell()(只有tr能调用)
+        ce.children[0].insertCell(0);//插入td
+
+        //deleteCell()(只有tr能调用)
+        ce.children[0].deleteCell(0);//删除td
+
+    }
+
+
+</script>
+</body>
+</html>

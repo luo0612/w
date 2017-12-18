@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟京东关闭广告栏</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .site-nav {
+            height: 30px;
+            background-color: #cccccc;
+        }
+
+        .top-banner {
+            background-color: blue;
+        }
+
+        .w {
+            width: 1210px;
+            height: 80px;
+            background-color: pink;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search {
+            width: 1210px;
+            height: 80px;
+            background-color: red;
+            margin: 0 auto;
+        }
+
+        a {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            background-color: #000000;
+            line-height: 25px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            //需求:
+            //点击关闭按钮 , 显示top-banner这个盒子透明度变为0 , 紧接着display:none
+            //步骤:
+            //1.获取事件源
+            //2.绑定事件
+            //3.书写事件驱动程序(定时器 , 透明度为0 , 清除定时器, 并隐藏盒子)
+            var topBanner = document.getElementsByClassName("top-banner")[0];
+            var a = topBanner.children[0].firstElementChild || topBanner.children[0].firstChild;
+
+            var timer = null;
+            a.onclick = function () {
+                timer = setInterval(function () {
+                    topBanner.style.opacity -= 0.1;
+                    if (topBanner.style.opacity < 0) {
+                        topBanner.style.display = "none";
+                        clearInterval(timer);
+                    }
+                }, 50);
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div class="site-nav"></div>
+<div class="top-banner" style="opacity: 1">
+    <div class="w">
+        <a href="#">x</a>
+    </div>
+</div>
+<div class="search"></div>
+
+</div>
+</body>
+</html>
