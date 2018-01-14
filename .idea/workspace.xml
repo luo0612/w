@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f183f7-7203-4889-a5d4-d3e0596ae52d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/1-offsetWidth和offsetHeight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/10-简单焦点图(CSS).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/11-三个函数.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/12-缓动动画体验.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/13-缓动动画(简单封装).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/14-offsetLeft取值问题.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/15-缓动动画(完整封装).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/16-滚动事件.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/17-scroll家族中的scrollWidth和scrollHeight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/18-scrollLeft和scrollTop.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/19-scrollTo的兼容问题.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/2-offsetLeft和offsetTop.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/20-json回顾和conpatMode属性问题.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/21-DTD.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/images/cloud.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/images/wifi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-scrollTop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/main.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/images/aside.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-animate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/images/Top.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/3-offsetParent属性.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/4-offsetLeft和style.left的区别.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/5-体验动画.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/6-动画封装.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/7-缓动动画.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/8-滑动轮播图(CSS版本).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/9-左右焦点图.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/1-Date定义和体验.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/10-字符串案例.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/11-获取节点元素(简单版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/12-获取节点元素(最终版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/13-Math对象.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/14-事件的概述.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/15-事件监听原理.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/16-事件监听的兼容写法.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/17-事件解绑的兼容写法.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/2-模拟日历.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/3-苹果发布会倒计时.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/4-String内置对象体验.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/5-给索引查字符.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/6-打印字符串的的占位长度.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/7-给字符查索引.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/8-字符串连接和截取.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/9-特殊方法.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/utils.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android/eventbus/EventBus.xmind" afterPath="$PROJECT_DIR$/android/eventbus/EventBus.xmind" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/CSS.xmind" afterPath="$PROJECT_DIR$/web/CSS/CSS.xmind" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/HTML.xmind" afterPath="$PROJECT_DIR$/web/HTML/HTML.xmind" />
       <change beforePath="$PROJECT_DIR$/web/JavaScript/JavaScript.xmind" afterPath="$PROJECT_DIR$/web/JavaScript/JavaScript.xmind" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -124,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="523">
-              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -134,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -153,8 +92,8 @@
       <file leaf-file-name="1-返回头部的小火箭.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -164,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -261,7 +200,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="914" />
     <option name="y" value="15" />
     <option name="width" value="976" />
@@ -421,12 +360,12 @@
       <workItem from="1514004197102" duration="1528000" />
       <workItem from="1514096365890" duration="13510000" />
       <workItem from="1515159355978" duration="599000" />
-      <workItem from="1515894907978" duration="19350000" />
+      <workItem from="1515894907978" duration="19950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127588000" />
+    <option name="totallyTimeSpent" value="128188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,8 +377,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="914" y="15" width="976" height="1038" extended-state="1" />
-    <editor active="true" />
+    <frame x="914" y="15" width="976" height="1038" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.455914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -729,7 +667,7 @@
         <state relative-caret-position="144">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -833,7 +771,7 @@
     <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -841,7 +779,7 @@
     <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -856,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
