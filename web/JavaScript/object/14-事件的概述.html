@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件的概述</title>
+</head>
+<body>
+<button>赋诗</button>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    //第一种事件绑定的方法容易被层叠
+    // btn.onclick = function () {
+    //     console.log("九尺龙泉万卷书 , 上天生我意如何");
+    // }
+    // btn.onclick = function () {
+    //     console.log("不能报国平天下 , 枉为男儿大丈夫");
+    // }
+    //执行的下面的onclick方法 , 上面的方法被覆盖
+
+    //第二种事件绑定 , 事件监听器
+    //addEventListener : 事件监听器 . 原事件被执行的时候 ,
+    // 后面绑定的事件 , 照样执行
+    //第二种绑定事件的方法 , 不会出现层叠 (覆盖)
+    btn.addEventListener("click", fn1);
+    btn.addEventListener("click", fn2);
+
+    function fn1() {
+        console.log("九尺龙泉万卷书 , 上天生我意如何");
+    }
+
+    function fn2() {
+        console.log("不能报国平天下 , 枉为男儿大丈夫");
+    }
+
+    //上面fn1和fn2都执行了
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scrollTop的兼容问题</title>
+    <style>
+        body {
+            height: 5000px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    window.onscroll = function () {
+        //1.未声明DTD (Chrome不识别)
+        var top = document.body.scrollTop;
+        console.log(top);
+        //2.已经声明DTD(IE678只识别,谷歌识别)
+        var top1 = document.documentElement.scrollTop;
+        console.log(top1);
+        //火狐/谷歌/IE9+以上支持
+        var top2 = window.pageYOffset;
+        console.log(top2);
+
+        //兼容性写法
+        var a = window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop;
+        console.log(a);
+
+        //获取文档标题
+        var title = document.title;
+        console.log(title);
+
+        //获取文档的头标签
+        var head = document.head;
+        console.log(head);
+
+        //获取文档的body标签
+        var body = document.body;
+
+        //文档的HTML标签
+        var html = document.documentElement;
+        console.log(html);
+        //基本结构中的html标签并不是通过document.html去访问的 ,
+        //而是document.documentElement
+
+    };
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串案例</title>
+</head>
+<body>
+<script>
+    //截取字符串"我爱你中国，我亲爱的母亲"，中的"中国，我亲爱的"；
+    //使用indexOf , slice方法
+
+    //"abcoefoxyozzopp"查找字符串中所有o出现的位置
+    //使用charAt()方法
+    //把字符串中所有的o替换成!
+    //使用replace()方法
+    var str2 = "abcoefoxyozzopp";
+    //全局替换 : /被替换的字符串/g
+    //只替换第一个 : /被替换的字符串/
+    //确保匹配字符串大写字符的正确 : /被替换的字符串/i
+    //text.replace(/javascript/i, "JavaScript");
+    console.log(str2.replace(/o/g, "!"));
+
+
+    //判断一个字符串中出现次数最多的字符，统计这个次数
+    //定义一个json，然后判断json中是够有该属性，如果有该属性，那么值+1;否则创建一个该属性，并赋值为1；
+    var json = {};
+    for (var i = 0; i < str2.length; i++) {
+        var key = str2.charAt(i);
+        if (json[key] == undefined) {
+            json[key] = 1;
+        } else {
+            json[key] += 1;
+        }
+    }
+    console.log(json);//Objecta: 1b: 1c: 1e: 1f: 1o: 4p: 2x: 1y: 1z: 2__proto__: Object
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件监听的兼容写法</title>
+</head>
+<body>
+<button>赋诗</button>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    //火狐谷歌IE9+支持addEventListener
+    //IE678支持attachEvent
+    EventListener = {
+        addEvent: function (element, fn, str) {
+            //通过判断调用方法的方式兼容IE678
+            //如果该浏览器支持该方法, 就调用
+            if (element.addEventListener) {
+                element.addEventListener(str, fn);
+            } else if (element.attachEvent) {
+                element.attachEvent("on" + str, fn);
+            } else {
+                //在addEventListener和attachEvent都不存在的情况下，用此代码
+                element["on" + str] = fn;
+            }
+        }
+    }
+    EventListener.addEvent(btn, fn1, "click");
+    EventListener.addEvent(btn, fn2, "click");
+
+    function fn1() {
+        console.log("九尺龙泉万卷书，上天生我意何如。");
+    }
+
+    function fn2() {
+        console.log("不能报国平天下，枉为男儿大丈夫。");
+    }
+</script>
+</body>
+</html>

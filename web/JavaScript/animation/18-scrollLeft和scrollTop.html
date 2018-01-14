@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scrollLeft和scrollTop</title>
+    <style>
+        body {
+            height: 5000px;
+            width: 5000px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    window.onscroll = function () {
+        //document.body.scrollTop: 网页被卷去的头部
+        console.log(document.body.scrollTop)
+        //兼容有问题
+        document.title = document.body.scrollTop + "   " + document.body.scrollLeft;
+    }
+</script>
+</body>
+</html>

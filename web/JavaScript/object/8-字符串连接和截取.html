@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字符串连接和截取</title>
+</head>
+<body>
+<script>
+    //concat : 连接两个字符串返回一个新的字符串 , 并且不会被修改
+    var str1 = "abc";
+    var str2 = "123";
+    var str3 = str1.concat(str2);
+    console.log(str1);//abc
+    console.log(str2);//123
+    console.log(str3);//abc123
+
+    var str = "I love my family!";//I love my family!
+    console.log(str);
+
+    //slice() 根据索引值和索引值截取字符串
+    console.log(str.slice(2));//从索引截取到最后  love my family!
+    console.log(str.slice(2, 5));//从索引截取 , 包左不包右 lov
+    console.log(str.slice(-3));//截取后面3个 ly!
+    console.log(str.slice(5, 2));//空字符串 ""
+
+    //substring() 根据索引值和索引值截取字符串
+    console.log(str.substring(2));//从索引截取到最后 love my family!
+    console.log(str.substring(2, 5));//从索引截取 , 指定长度个字符 lov
+    console.log(str.substring(-1));//全部截取 I love my family!
+    console.log(str.substring(5, 2));//智能调换 lov
+</script>
+</body>
+</html>

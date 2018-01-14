@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件解绑的兼容写法</title>
+</head>
+<body>
+<button>赋诗</button>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    EventListener = {
+        addEvent: function (element, fn, str) {
+            if (element.addEventListener) {
+                element.addEventListener(str, fn);
+            } else if (element.attachEvent) {
+                element.attachEvent("on" + str, fn);
+            } else {
+                element["on" + str] = fn;
+            }
+        },
+
+        removeEvent: function (element, fn, str) {
+            if (element.removeEventListener) {
+                element.removeEventListener(str, fn);
+            } else if (element.detachEvent) {
+                ele.detachEvent("on" + str, fn);
+            } else {
+                element["on" + str] = null;
+            }
+        }
+    }
+
+    EventListener.addEvent(btn, fn, "click");
+    EventListener.removeEvent(btn, fn, "click");
+
+
+    function fn() {
+        alert(1);
+    }
+</script>
+</body>
+</html>

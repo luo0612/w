@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件监听原理</title>
+</head>
+<body>
+<button>赋诗</button>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    fn("click", fn1, btn);
+    fn("click", fn2, btn);
+    fn("click", fn3, btn);
+
+    function fn1() {
+        console.log("九尺龙泉万卷书，上天生我意何如。");
+    }
+
+    function fn2() {
+        console.log("不能报国平天下，枉为男儿大丈夫。");
+    }
+
+    function fn3() {
+        console.log("111111。");
+    }
+
+    function fn(str, fn, element) {
+        var oldEvent = element["on" + str];
+        element["on" + str] = function () {
+            //不能直接执行函数
+            //因为无法确定之前是否绑定过同样的事件
+            //进行判断 , 如果以前绑定过事件
+            //先把以前绑定的事件执行完后 , 执行现在的事件
+            //如果以前没有绑定过事件 , 就直接执行现在的事件
+            //如果之前没有定义过事件 , 该事件源的该事件属性应该是null , 否则应该为true
+            if (oldEvent) {
+                oldEvent();
+                fn();
+            } else {
+                //没有绑定过事件
+                fn();
+            }
+
+        }
+    }
+
+
+</script>
+</body>
+</html>

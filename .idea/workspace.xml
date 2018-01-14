@@ -2,116 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1f183f7-7203-4889-a5d4-d3e0596ae52d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/1-window对象.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/2.BOM的内置方法内置对象体验.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/3-体验定时器.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/4-定时器的高级.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/5-5秒后关闭广告.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/bom/6-模拟京东关闭广告栏.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/10-点亮盒子.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/12-atb栏切换(js).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/13-tab切换(复杂版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/14-tab切换(精简版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/15-访问关系.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/16-nodeType和nodeName和nodeValue.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/17-隔行变色.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/18-访问关系封装.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/19-菜单练习.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/20-style属性演示.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/21-改变盒子的大小和透明度.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/22-文本框获取焦点高亮显示.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/23-高级行变色.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/24-百度皮肤.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/25-隐藏盒子.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/26-定位层级.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/27-dom元素的创建.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/28-元素的操作.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/29-创建列表高亮显示美女.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/30-祝愿墙.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/31-选择水果.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/32-选择水果(简单版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/33-选择水果(封装版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/34-选择水果(终极版).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/35-在线用户.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/36-祝愿墙(未完成).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/37-百度搜索(未完成).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/38-判断字符串以某个字符串开头.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/39-表格操作.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/7-全选反选.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/8-属性的操作方法.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/9-tab栏切换(CSS).html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/bpic_1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/cloud.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/content.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/content_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/lb1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/lb2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/lb3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/lb4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/lb5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/main.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/mm.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/taobao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/tianshi.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/tip1_c.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/tip1_f.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/tip1_h.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/xiaoniao.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images/百度换肤.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/0f000PC3L7v5WMl_8bcCX6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/75_avatar_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/89_avatar_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/bpic_1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/cloud.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/content.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/content_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/lb1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/lb2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/lb3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/lb4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/lb5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/main.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/mm.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/mu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/noavatar_small.gif.baiduyun.downloading" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/placeholder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/rss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/small.webp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/taobao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/tianshi.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/tip1_c.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/tip1_f.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/tip1_h.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/xiaoniao.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/images1/百度换肤.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/dom/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/1-offsetWidth和offsetHeight.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/10-简单焦点图(CSS).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/11-三个函数.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/12-缓动动画体验.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/13-缓动动画(简单封装).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/14-offsetLeft取值问题.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/15-缓动动画(完整封装).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/16-滚动事件.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/17-scroll家族中的scrollWidth和scrollHeight.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/18-scrollLeft和scrollTop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/19-scrollTo的兼容问题.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/2-offsetLeft和offsetTop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/20-json回顾和conpatMode属性问题.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/21-DTD.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/images/cloud.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/images/wifi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-scrollTop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/main.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/nav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/images/top.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/images/aside.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-animate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/images/Top.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/3-offsetParent属性.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/4-offsetLeft和style.left的区别.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/5-体验动画.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/6-动画封装.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/7-缓动动画.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/8-滑动轮播图(CSS版本).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/9-左右焦点图.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/animation/images/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/1-Date定义和体验.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/10-字符串案例.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/11-获取节点元素(简单版).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/12-获取节点元素(最终版).html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/13-Math对象.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/14-事件的概述.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/15-事件监听原理.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/16-事件监听的兼容写法.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/17-事件解绑的兼容写法.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/2-模拟日历.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/3-苹果发布会倒计时.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/4-String内置对象体验.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/5-给索引查字符.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/6-打印字符串的的占位长度.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/7-给字符查索引.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/8-字符串连接和截取.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/object/9-特殊方法.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/JavaScript/utils.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/CSS/CSS.xmind" afterPath="$PROJECT_DIR$/web/CSS/CSS.xmind" />
       <change beforePath="$PROJECT_DIR$/web/JavaScript/JavaScript.xmind" afterPath="$PROJECT_DIR$/web/JavaScript/JavaScript.xmind" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -126,14 +80,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="6-模拟京东关闭广告栏.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/6-模拟京东关闭广告栏.html">
+      <file leaf-file-name="19-scrollTo的兼容问题.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/19-scrollTo的兼容问题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-478">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20-json回顾和conpatMode属性问题.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/20-json回顾和conpatMode属性问题.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="21-DTD.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/21-DTD.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-筋斗云.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="80" column="51" lean-forward="false" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-固定标题栏.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-两侧跟随的广告.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-animate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-animate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-返回头部的小火箭.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-animate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-scrollTop.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-scrollTop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,60 +193,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端/JavaScript/dom/01-隐藏显示二维码1.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/dom/1 . 隐藏显示二维码.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/1-隐藏显示二维码.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.js" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/3-文本框获取焦点.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/4-用户注册高亮显示.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/5-设置水果.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/7-全选反选.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/8-属性的操作方法.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/9-tab栏切换(CSS).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/10-点亮盒子.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/12-atb栏切换(js).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/13-tab切换(复杂版).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/14-tab切换(精简版).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/15-访问关系.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/16-nodeType和nodeName和nodeValue.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/17-隔行变色.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/18-访问关系封装.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/tools.js" />
-        <option value="$PROJECT_DIR$/web/JavaScript/19-菜单练习.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/19-菜单练习.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/20-style属性演示.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/21-改变盒子的大小和透明度.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/22-文本框获取焦点高亮显示.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/23-高级行变色.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/24-百度皮肤.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/25-隐藏盒子.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/26-定位层级.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/27-dom元素的创建.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/28-元素的操作.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/29-创建列表高亮显示美女.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/30-祝愿墙.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/31-选择水果.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/32-选择水果(简单版).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/33-选择水果(封装版).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/34-选择水果(终极版).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/35-在线用户.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/36-祝愿墙(未完成).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/37-百度搜索(未完成).html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/bom/1-判断字符串以某个字符串开头.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/dom/39-表格操作.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/bom/1-window对象.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/bom/2.BOM的内置方法内置对象体验.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/bom/3-体验定时器.html" />
-        <option value="$PROJECT_DIR$/web/JavaScript/bom/4-定时器的高级.html" />
         <option value="$PROJECT_DIR$/web/JavaScript/bom/5-5秒后关闭广告.html" />
         <option value="$PROJECT_DIR$/web/JavaScript/bom/14-模拟京东关闭广告栏.html" />
         <option value="$PROJECT_DIR$/web/JavaScript/bom/6-模拟京东关闭广告栏.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/1-Date定义和体验.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/2-模拟日历.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/3-苹果发布会倒计时.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/4-String内置对象体验.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/5-给索引查字符.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/6-打印字符串的的占位长度.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/7-给字符查索引.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/8-字符串链接和截取.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/8-字符串连接和截取.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/9-特殊方法.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/10-字符串案例.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/12-获取节点元素(最终版).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/11-获取节点元素(简单版).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/13-Math对象.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/14-事件的概述.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/15-事件监听原理.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/16-事件监听的兼容写法.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/object/17-事件解绑的兼容写法.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/1-offsetWidth和offsetHeight.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/3-offsetParent属性.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/utils.js" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/offsetLeft和style.left的区别.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/5-体验动画.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/AnimUtils.js" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/7-缓动动画.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/8-滑动轮播图(CSS版本).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/2-offsetLeft和offsetTop.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/6-动画封装.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/9-左右焦点图.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/10-简单焦点图(CSS).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/11-三个函数.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/12-缓动动画体验.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/14-offsetLeft取值问题.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/13-缓动动画(简单封装).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/15-缓动动画(完整封装).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/16-滚动事件.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/17-scroll家族中的scrollWidth和scrollHeight.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/18-scrollLeft和scrollTop.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/19-scrollTo的兼容问题.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/20-json回顾和conpatMode属性问题.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/21-DTD.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云(CSS).html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-scrollTop.js" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js" />
+        <option value="$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html" />
       </list>
     </option>
   </component>
@@ -214,11 +261,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="-24" />
-    <option name="width" value="1750" />
-    <option name="height" value="1009" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="914" />
+    <option name="y" value="15" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,7 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,35 +301,6 @@
               <item name="w" type="b2602c69:ProjectViewProjectNode" />
               <item name="w" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="盒子模型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="边框" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="w" type="b2602c69:ProjectViewProjectNode" />
-              <item name="w" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,37 +308,42 @@
               <item name="w" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="bom" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="w" type="b2602c69:ProjectViewProjectNode" />
               <item name="w" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="dom" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+              <item name="25-返回头部的小火箭" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../vogtec/D168IW/D168IW/SKDroid/assets/www/www" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\study\w\w\web\JavaScript\dom\images1" />
-      <recent name="C:\work\study\w\w\web\JavaScript\dom\images" />
-      <recent name="C:\work\study\w\w\web\JavaScript\dom" />
-      <recent name="C:\work\study\w\w\前端\JavaScript\dom" />
-      <recent name="C:\work\study\w\w\前端\JavaScript\dom\images" />
+      <recent name="C:\work\study\w\w\web\JavaScript\animation\25-返回头部的小火箭" />
+      <recent name="C:\work\study\w\w\web\JavaScript\animation\24-两侧跟随的广告" />
+      <recent name="C:\work\study\w\w\web\JavaScript\animation\23-固定标题栏" />
+      <recent name="C:\work\study\w\w\web\JavaScript\animation\22-案例之筋斗云" />
+      <recent name="C:\work\study\w\w\web\JavaScript\animation\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\study\w\w\web\JavaScript\dom" />
@@ -343,26 +365,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2.BOM的内置方法内置对象体验.html">
-    <configuration name="11-弹出盒子的索引值.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/dom/11-弹出盒子的索引值.html" />
-    <configuration name="15-访问关系.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/dom/15-访问关系.html" />
-    <configuration name="2.BOM的内置方法内置对象体验.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/bom/2.BOM的内置方法内置对象体验.html" />
-    <configuration name="30-祝愿墙.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/dom/30-祝愿墙.html" />
-    <configuration name="39-表格操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/dom/39-表格操作.html" />
+  <component name="RunManager" selected="JavaScript Debug.21-DTD.html">
+    <configuration name="13-缓动动画(简单封装).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/13-缓动动画(简单封装).html" />
+    <configuration name="15-缓动动画(完整封装).html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/15-缓动动画(完整封装).html" />
+    <configuration name="16-滚动事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/16-滚动事件.html" />
+    <configuration name="18-scrollLeft和scrollTop.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/18-scrollLeft和scrollTop.html" />
+    <configuration name="21-DTD.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/21-DTD.html" />
+    <configuration name="6-动画封装.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/w/web/JavaScript/animation/6-动画封装.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.11-弹出盒子的索引值.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.15-访问关系.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.30-祝愿墙.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.39-表格操作.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2.BOM的内置方法内置对象体验.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.13-缓动动画(简单封装).html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.15-缓动动画(完整封装).html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.16-滚动事件.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.18-scrollLeft和scrollTop.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.21-DTD.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2.BOM的内置方法内置对象体验.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.39-表格操作.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.30-祝愿墙.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.15-访问关系.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.11-弹出盒子的索引值.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.21-DTD.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.18-scrollLeft和scrollTop.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.16-滚动事件.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.15-缓动动画(完整封装).html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.13-缓动动画(简单封装).html" />
       </list>
     </recent_temporary>
   </component>
@@ -391,11 +414,19 @@
       <workItem from="1513396673449" duration="1296000" />
       <workItem from="1513484308860" duration="17138000" />
       <workItem from="1513561435552" duration="23097000" />
+      <workItem from="1513647359779" duration="12000" />
+      <workItem from="1513684611967" duration="6343000" />
+      <workItem from="1513771925950" duration="2875000" />
+      <workItem from="1514003895896" duration="248000" />
+      <workItem from="1514004197102" duration="1528000" />
+      <workItem from="1514096365890" duration="13510000" />
+      <workItem from="1515159355978" duration="599000" />
+      <workItem from="1515894907978" duration="19350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83123000" />
+    <option name="totallyTimeSpent" value="127588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,9 +438,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="914" y="15" width="976" height="1038" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4752688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.455914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -419,13 +451,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38754326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38985005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,447 +477,388 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
-          <line>65</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
-          <line>54</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
-          <line>70</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
-          <line>76</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html</url>
-          <line>81</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/前端/JavaScript/dom/01-隐藏显示二维码1.html</url>
-          <line>34</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/dom/7-全选反选.html</url>
-          <line>84</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html</url>
-          <line>20</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html</url>
-          <line>36</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html</url>
-          <line>22</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/dom/39-表格操作.html</url>
-          <line>17</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/web/JavaScript/bom/2.BOM的内置方法内置对象体验.html</url>
-          <line>35</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="55" />
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端/JavaScript/dom/1-隐藏显示二维码.html" />
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.js" />
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/1-隐藏显示二维码.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/3-苹果发布会倒计时.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        <state relative-caret-position="-413">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/2-禁用文本框.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/2-模拟日历.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="91">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/3-文本框获取焦点.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/4-String内置对象体验.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/4-用户注册高亮显示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/5-设置水果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/6-for循环为文本框赋值和取值.html" />
-    <entry file="file://$PROJECT_DIR$/web/CSS/css/边框/表格边框河合并.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/5-给索引查字符.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/7-全选反选.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/6-打印字符串的的占位长度.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="122">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/9-tab栏切换(CSS).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/7-给字符查索引.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1133">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="400">
+          <caret line="20" column="113" lean-forward="false" selection-start-line="20" selection-start-column="113" selection-end-line="20" selection-end-column="113" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/8-属性的操作方法.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/8-字符串连接和截取.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="76">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/10-点亮盒子.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/9-特殊方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="148">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/11-弹出盒子的索引值.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/12-获取节点元素(最终版).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/12-atb栏切换(js).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/13-tab切换(复杂版).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/14-tab切换(精简版).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/15-访问关系.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1502">
-          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/17-隔行变色.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/16-nodeType和nodeName和nodeValue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/18-访问关系封装.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/19-菜单练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/20-style属性演示.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/10-字符串案例.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
-          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <caret line="34" column="87" lean-forward="false" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/21-改变盒子的大小和透明度.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/11-获取节点元素(简单版).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/22-文本框获取焦点高亮显示.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/13-Math对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="468">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/14-事件的概述.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/15-事件监听原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/16-事件监听的兼容写法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/1-offsetWidth和offsetHeight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/object/17-事件解绑的兼容写法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/AnimUtils.js" />
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/4-offsetLeft和style.left的区别.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/5-体验动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/3-offsetParent属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/6-动画封装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/vogtec/utils/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/vogtec/utils/utils/BrightnessUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/23-高级行变色.html">
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/vogtec/utils/utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/24-百度皮肤.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/9-左右焦点图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="1109">
+          <caret line="129" column="39" lean-forward="false" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/25-隐藏盒子.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/8-滑动轮播图(CSS版本).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="576">
+          <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/26-定位层级.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/27-dom元素的创建.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/28-元素的操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/29-创建列表高亮显示美女.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/images/content_bg.jpg">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/images/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/30-祝愿墙.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/2-offsetLeft和offsetTop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="171" column="5" lean-forward="false" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="39" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/31-选择水果.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/7-缓动动画.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/32-选择水果(简单版).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/10-简单焦点图(CSS).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        <state relative-caret-position="-197">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/33-选择水果(封装版).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/11-三个函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="288">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/12-缓动动画体验.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/34-选择水果(终极版).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/14-offsetLeft取值问题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="65" column="46" lean-forward="false" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        <state relative-caret-position="144">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/13-缓动动画(简单封装).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/35-在线用户.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/15-缓动动画(完整封装).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="147" column="66" lean-forward="false" selection-start-line="147" selection-start-column="66" selection-end-line="147" selection-end-column="66" />
+        <state relative-caret-position="612">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/36-祝愿墙(未完成).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/16-滚动事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/37-百度搜索(未完成).html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/17-scroll家族中的scrollWidth和scrollHeight.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="307">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/38-判断字符串以某个字符串开头.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/18-scrollLeft和scrollTop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="288">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/1-window对象.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/19-scrollTo的兼容问题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="307">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dom/39-表格操作.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/20-json回顾和conpatMode属性问题.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="540">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/2.BOM的内置方法内置对象体验.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/21-DTD.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="46" column="155" lean-forward="false" selection-start-line="46" selection-start-column="155" selection-end-line="46" selection-end-column="155" />
+        <state relative-caret-position="180">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/22-案例之筋斗云/1-筋斗云.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="80" column="51" lean-forward="false" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15084" column="28" lean-forward="false" selection-start-line="15084" selection-start-column="17" selection-end-line="15084" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="15067" column="17" lean-forward="false" selection-start-line="15067" selection-start-column="17" selection-end-line="15067" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/4-定时器的高级.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-固定标题栏.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="523">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/3-体验定时器.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/23-固定标题栏/1-scrollTop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/5-5秒后关闭广告.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/24-两侧跟随的广告/1-两侧跟随的广告.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/bom/6-模拟京东关闭广告栏.html">
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-animate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/animation/25-返回头部的小火箭/1-返回头部的小火箭.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

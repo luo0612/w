@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画封装</title>
+    <style>
+        .box1 {
+            margin: 0;
+            padding: 5px;
+            height: 200px;
+            background-color: #d0d0d0;
+            position: relative;
+        }
+
+        button {
+            margin: 5px;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+        }
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            /* position: absolute;
+             left: 0;
+             top: 150px;*/
+        }
+    </style>
+    <script src="../utils.js"></script>
+</head>
+<body>
+<div class="box1">
+    <button>运动到200</button>
+    <button>运动到400</button>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+<script>
+    var btnArr = document.getElementsByTagName("button");
+    var box2 = getFirstClassElement("box2");
+    var box3 = getFirstClassElement("box3");
+
+    function animate(element, target) {
+        //要用定时器, 先清除定时器
+        //一个盒子只能有一个定时器, 这样的话 , 不会出现和其他盒子定时器冲突
+        //而定时器本身将成为盒子的一个属性
+        //bug1: 点击的次数越多 , 越来越快
+        //原因 : 当多次点击时 , 上次的计时器还没结束 , 又创建了第二个定时器
+        //偏移量叠加, 因此越来越快
+        //解决 : 每次执行前 , 清除定时器
+        clearInterval(element.timer);
+        //bug2 : 不能返回
+        //原因 : 步长不能为恒定值
+        //传递的目标值如果比当前值大 , 那么步长为+10
+        //如果传递的目标值比当前小 , 那么步长为-10
+        var speed = target > element.offsetLeft ? 10 : -10;
+        element.timer = setInterval(function () {
+            //bug3 : 二次点击不停止的问题
+            //如果当前值===目标值 , 那么先判断之间的距离还有多少
+            //如果小于步长 , 那么就停止
+            var val = target - element.offsetLeft;
+            //盒子自身的距离=步长
+            //style.left 属性设置或返回定位元素的左部位置
+            //因此element必须是定位元素
+            //如果不是定位元素 , 此处相当于给element元素添加了style.left属性 , 当时自己添加的style.left属性 ,并不能修改元素的位置 ,
+            // 因此也不能修改offsetLeft的值 , 导致offsetLeft的值一直不变 , 动画不会执行
+            element.style.left = element.offsetLeft + speed + "px";
+            //目标值和当前值的差小于步长 , 那么不再前进
+            //因为步长有正有负 , 所以转换成绝对值来进行比较
+            if (Math.abs(val) < Math.abs(speed)) {
+                element.style.left = target + "px";
+                clearInterval(element.timer);
+            }
+        }, 30);
+    }
+
+    btnArr[0].onclick = function () {
+        // animate(box2,200);
+        animate(box3, 200);
+    };
+    btnArr[1].onclick = function () {
+        animate(box2, 400);
+        animate(box3, 400);
+    };
+
+</script>
+</body>
+</html>

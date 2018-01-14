@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体验动画</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+    <script src="../utils.js"></script>
+</head>
+<body>
+<button>开始动画</button>
+<!--style="left: 0px;"-->
+<div class="box"></div>
+<script>
+    var btn = getFirstTagElement("button");
+    var div = getFirstTagElement("div");
+
+    //1 . 闪动动画
+    // btn.onclick = function () {
+    //     //
+    //     div.style.left = "500px";
+    // }
+
+    //2.匀速动画
+    btn.onclick = function () {
+        setInterval(function () {
+            log(parseInt(div.style.left));
+
+            //如果没有设置行内样式 style.left="0px" , 此处不能用 , 返回NaN
+            //div.style.left = parseInt(div.style.left) + 10 + "px";
+
+            //动画原理 : 盒子未来的位置=盒子现在的位置+步长;
+            //style.left赋值 , 用offsetLeft获取值
+            //style.left获取值不方便 , 获取行内样式 , 如果没有返回的是"" , 容易出现NaN
+            //offsetLeft获取值特别方便 , 而且是number类型 , 方便计算 , 因为它是只读的
+            div.style.left = div.offsetLeft + 10 + "px";
+        }, 300);
+    }
+</script>
+</body>
+</html>

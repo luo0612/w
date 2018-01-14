@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offsetLeft和style.left的区别</title>
+    <style>
+        .box1 {
+            width: 300px;
+            height: 300px;
+            padding: 100px;
+            margin: 100px;
+            position: relative;
+            border: 100px solid #000000;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+    <script src="../utils.js"></script>
+</head>
+<body>
+<div class="box1">
+    <div class="box3">
+        <div class="box2" style="left: 10px"></div>
+    </div>
+</div>
+<script>
+    var box2 = getFirstClassElement("box2");
+    log(box2.offsetLeft);//10
+    log(box2.style.left);//10px
+
+    //1.最大的区别在于offset可以返回没有定位盒子 距离左侧的位置
+    //如果父系盒子中都没有定位 , 以body为准
+    //style.left只能获取行内式 , 如果没有返回""
+
+    //2.offsetLeft返回的是数字 , 而style.top 返回的是字符串 ,
+    //除了数字外 , 还带有单位px
+    //div.offsetLef=100; div.style.left="100px";
+
+    //3.offsetTop只读 , 而style.top可读可写
+    //style.left和style.top可以进行赋值
+    //offsetLeft和offsetTop只能获取值
+
+    //4.如果没有HTML元素指定top样式 , 则style.top的是空字符串
+    //style.left只能返回行内样式 , 如果没有返回""
+</script>
+</body>
+</html>

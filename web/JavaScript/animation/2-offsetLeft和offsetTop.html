@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offsetLeft和offsetTop</title>
+    <style>
+        .box1 {
+            width: 300px;
+            height: 300px;
+            padding: 100px;
+            margin: 100px;
+            position: relative;
+            border: 100px solid #000000;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+    <script src="../utils.js"></script>
+</head>
+<body>
+<div class="box1">
+    <div class="box3">
+        <div class="box2" style="left: 10px"></div>
+    </div>
+</div>
+<script>
+    var box2 = document.getElementsByClassName("box2")[0];
+    //offsetLeft和offsetTop : 检测距离父盒子有定位的左/上面的距离
+    //返回距离上级盒子(带有定位)左边s的距离
+    //如果父级都没有定位 , 则以body为准
+    //offsetLeft从父亲的padding开始算 , 父亲的border不算
+    //在父盒子有定位的情况下 , offsetLeft==style.left(去掉px)
+    log(box2.offsetLeft);//100
+    log(box2.offsetTop);//100
+    //如果设置position , 则为10px , 10px
+</script>
+</body>
+</html>

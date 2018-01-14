@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>缓动动画(简单封装)</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            left: 400px;
+        }
+    </style>
+</head>
+<body>
+<button>运动到200</button>
+<button>运动到400</button>
+<div></div>
+<script>
+    var btn = document.getElementsByTagName("button")[0];
+    var div = document.getElementsByTagName("div")[0];
+
+    var timer = null;
+
+    btn.onclick = function () {
+        //要用定时器 , 先清理定时器
+        clearInterval(timer);
+        timer = setInterval(function () {
+            var target = 0;
+            //js的offset方法在实际计算时 , 会进行四舍五入
+            var step = (target - div.offsetLeft) / 10;
+            //当step小于0.5时 , 默认取值为0
+            //进行向上取整
+            //最后10像素的时候 ,进行1px的向目标位置移动
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            div.style.left = div.offsetLeft + step + "px";
+            console.log(1);//
+            if (Math.abs(0 - div.offsetLeft) < Math.abs(step)) {
+                div.style.left = 0 + "px;"
+                clearInterval(timer);
+            }
+        }, 30);
+    }
+</script>
+</body>
+</html>

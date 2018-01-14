@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offsetLeft取值问题</title>
+</head>
+<body>
+<div style="position: absolute; left: 396.4px"></div>
+<script>
+    var div = document.getElementsByTagName("div")[0];
+    console.log(div.style.left);//396.4px
+    console.log(div.offsetLeft)//396
+    //js的offsetLeft在实际运算时 , 会进行四舍五入
+</script>
+</body>
+</html>

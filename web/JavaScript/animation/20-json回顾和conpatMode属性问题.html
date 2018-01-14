@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json回顾和conpatMode属性问题</title>
+</head>
+<body>
+<script>
+    var json = {"aaa": 111, "bbb": 222};
+    for (var k in json) {
+        console.log(k);//属性
+        console.log(json[k]);//值: 第二种属性绑定和获取值的方式
+    }
+
+    //判断页面有没有DTD
+    alert(document.compatMode);
+    //BackCompat : 未声明
+    //CSS1Compat : 已经声明
+    //注意大小写
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打印字符串的占位长度</title>
+</head>
+<body>
+<script>
+    var str = "I love my country! 我爱你中国! ";
+    //"我爱你" : 一个汉字占两个字符位
+    //需求 :
+    //求一个字符串占有几个字符位
+    //思路 :
+    //如果是英文 , 占一个字符位 , 如果不是英文占两个字符位
+    alert(getZFWLength(str));
+    alert(str.length);
+
+    function getZFWLength(string) {
+        var count = 0;
+        for (var i = 0; i < string.length; i++) {
+            if (string.charCodeAt(i) < 128 && string.charCodeAt(i) >= 0) {
+                count++;
+            } else {
+                count += 2;
+            }
+        }
+        return count;
+    }
+</script>
+</body>
+</html>

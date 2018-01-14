@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定标题栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            vertical-align: top;
+        }
+
+        .main {
+            margin: 0 auto;
+            width: 1000px;
+            margin-top: 10px;
+        }
+
+        #nav {
+            overflow: hidden;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script src="1-scrollTop.js"></script>
+    <script>
+        window.onload = function () {
+            //需求:
+            //1.当滚动界面的时候 , 当被卷曲的头部超过第二个盒子距离顶部的位置,
+            //那么直接给第二个盒子加类名.fixed
+            //2.当滚动界面的时候, 当被卷曲的头部小于第二个盒子距离顶部的位置,
+            //那么直接给第二个盒子取消类名.fixed
+
+            var topDiv = document.getElementById("top");
+            var height = topDiv.offsetHeight;
+            var middle = document.getElementById("nav");
+            var main = document.getElementById("main");
+
+            window.onscroll = function () {
+                if (onScrpll().top > height) {
+                    middle.className += " fixed";
+                } else {
+                    middle.className = "";
+                    //清零
+                    main.style.paddingTop = 0;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="top" id="top">
+    <img src="images/top.png" alt="">
+</div>
+<div id="nav">
+    <img src="images/nav.png" alt="">\
+</div>
+<div class="main" id="main">
+    <img src="images/main.png" alt="">
+</div>
+</body>
+</html>
