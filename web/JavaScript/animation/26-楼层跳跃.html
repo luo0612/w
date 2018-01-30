@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>楼层跳跃</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        ul {
+            list-style: none;
+            height: 100%;
+        }
+
+        ul li {
+            /*100%子盒子会继承父盒子的宽高 ,
+            父盒子继承body的宽高 ,
+            body继承html的宽高*/
+            /*auto : 适应盒子自身的宽度或者高度*/
+            /*100% : 适应盒子父盒子的宽度或者高度*/
+            height: 100%;
+
+        }
+
+        ol {
+            list-style: none;
+            position: fixed;
+            top: 80px;
+            left: 50px;
+        }
+
+        ol li {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000000;
+            text-align: center;
+            line-height: 50px;
+            margin-top: -1px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+<ul>
+    <li>鞋子区域</li>
+    <li>袜子区域</li>
+    <li>裤子区域</li>
+    <li>裙子区域</li>
+    <li>帽子区域</li>
+</ul>
+<ol>
+    <li>鞋子</li>
+    <li>袜子</li>
+    <li>裤子</li>
+    <li>裙子</li>
+    <li>帽子</li>
+</ol>
+</body>
+</html>
+<script>
+    //需求: 点击ol中的li , 屏幕滑动到对应的ul中的li的范围
+    //思路 : 利用window.scrollTo()
+    //利用缓动动画原理实习屏幕滑动
+    //步骤:
+    //1 . 获取元素
+    //2 . 指定ul和ol中的背景色 , 对应的li的背景色相同
+    //3 . 获取元素并绑定事件
+    //4 . 利用滑动动画原理实现屏幕滑动
+    //5 . 用scroll事件模拟盒子距离最顶端的距离
+
+    //获取元素
+    var ul = document.getElementsByTagName("ul")[0];
+    var ol = document.getElementsByTagName("ol")[0];
+    var ulLiArr = ul.children;
+    var olLiArr = ol.children;
+    var target = 0;
+    var leader = 0;
+    var timer = null;
+
+    //指定ul和ol中的背景色 , 对应的li背景色相同
+    //设置一个数字 , 里面装颜色 , 然后指定的颜色给数组中的指定元素
+    var colorArr = ["pink", "blue", "yellow", "orange", "green"];
+    for (var i = 0; i < colorArr.length; i++) {
+        //设置颜色
+        ulLiArr[i].style.backgroundColor = colorArr[i];
+        olLiArr[i].style.backgroundColor = colorArr[i];
+
+        //属性绑定 index
+        olLiArr[i].index = i;
+        //事件绑定
+        olLiArr[i].onclick = function () {
+            //获取目标位置
+            target = ulLiArr[this.index].offsetTop;
+
+            //使用定时器 . 先清除定时器
+            clearInterval(timer);
+
+            //利用缓动动画原理实现屏幕滑动
+            timer = setInterval(function () {
+                //获取步长
+                var step = (target - leader) / 10;
+                step = step > 0 ? Math.ceil(step) : Math.floor(step);
+                leader = leader + step;
+                window.scrollTo(0, leader);
+                if (Math.abs(target - leader) <= Math.abs(step)) {
+                    window.scrollTo(0, target);
+                    clearInterval(timer);
+                }
+            }, 25);
+        }
+    }
+
+    window.onscroll = function () {
+        //网页被卷去的长度
+        leader = onScrollTop().top;
+        console.log(leader)
+    }
+
+    function animate(element, target) {
+        clearInterval(element.timer);
+        element.timer = setInterval(function () {
+            var step = (target - element.offsetTop) / 10;
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            element.style.top = element.offsetTop + step + "px";
+            console.log(1);
+            if (Math.abs(target - element.offsetTop) <= Math.abs(step)) {
+                element.style.top = target + "px";
+                clearInterval(element.timer);
+            }
+        }, 25);
+    }
+
+    /**
+     * 封装scrollTop
+     */
+    function onScrollTop() {
+        if (window.pageYOffset != null) {
+            //IE9+高版本浏览器
+            //因为window.pageYOffset默认的是0 , 这里需要判断
+            return {
+                left: window.pageYOffset,
+                top: window.pageYOffset
+            }
+        } else if (document.compatMode === "CSS1Compat") {
+            //标准浏览器
+            //判断有没有声明DTD
+            return {
+                left: document.documentElement.scrollLeft,
+                top: document.documentElement.scrollTop
+            }
+        }
+        return {
+            //为声明DTD
+            left: document.body.scrollLeft,
+            top: document.body.scrollTop
+        }
+    }
+</script>

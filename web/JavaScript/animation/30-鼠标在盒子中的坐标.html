@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标在盒子中的坐标</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 200px;
+            padding-top: 100px;
+            background-color: pink;
+            text-align: center;
+            font: 18px/30px "SimSun";
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<script src="animate.js"></script>
+<script>
+    //需求:
+    //鼠标进入盒子之后只要移动 , 哪怕1像素 , 随时更换里面的内容 , 鼠标在盒子中的坐标
+    //技术点:
+    //新事件 , onmousemove
+    //在事件源上哪怕移动1像素也会触动这个事件
+    //一定程度上 , 模拟了定时器
+    //步骤:
+    //1.老三步和新五步
+    //2.获取鼠标在整个页面的位置
+    //3.获取盒子在整个页面的位置
+    //4.用鼠标位置减去盒子的位置赋值给盒子的内容
+
+    //1.老三步和新五步
+    var div = document.getElementsByTagName("div")[0];
+    div.onmousemove = function (event) {
+        //1.兼容性写法
+        event = event || window.event;
+        //2.获取鼠标在整个页面的位置
+        var pageX = event.pageX || (scroll().left + event.clientX);
+        var pageY = event.pageY || (scroll().top + event.clientY);
+
+        //3.获取盒子在整个页面的位置
+        var divX = div.offsetLeft;
+        var divY = div.offsetTop;
+
+        //4.用鼠标的位置减去盒子的位置赋值给盒子的内容
+        var targetX = pageX - divX;
+        var targetY = pageY - divY;
+        this.innerHTML = "鼠标在盒子中的X坐标: " + targetX + "px , Y坐标: " + targetY;
+    }
+</script>
+</body>
+</html>

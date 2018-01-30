@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>取消冒泡</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<script>
+    var box = document.getElementsByClassName("box")[0];
+    box.onmouseover = function (event) {
+        console.log("鼠标放到box上了");
+        //阻止冒泡
+        event = event || window.event;
+        //W3C的方法是 : (火狐 , 谷歌 , IE11)
+        //event.stopPropagation()
+        if (event && event.stopPropagation) {
+            event.stopPropagation();
+        } else {
+            //IE10以下则是使用: event.cancelBubble=true
+            event.cancelBubble = true;
+        }
+    };
+    document.onmousemove = function (ev) {
+        console.log(ev.bubbles);
+        //谁触动事件 , 会被放进target中
+        console.log(ev.target);
+    };
+</script>
+</body>
+</html>

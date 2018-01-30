@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件对象体验</title>
+</head>
+<body>
+<script>
+    document.onclick = function (ev) {
+        //兼容写法
+        ev = ev || window.event;
+
+        console.log(ev);
+        log(ev.timeStamp);//事件生成的日期和时间
+        log(ev.bubbles);//返回布尔值 , 指示事件是否是气泡事件类型
+        log(ev.button);//返回事件被触发时 , 哪个鼠标按钮被点击
+        log(ev.pageX);//光标相对于该网友的水平位置(ie无)
+        log(ev.pageY);//光标相对于该网页的垂直距离(ie无)
+        log(ev.screenX);//光标相对于该屏幕的水平距离
+        log(ev.screenY);//光标相对于该屏幕的垂直距离
+        log(ev.target);//该事件被送到的对象
+        log(ev.type);//事件的类型
+        log(ev.clientX);//光标相对于该网页的水平位置(当前可见区域)
+        log(ev.clientY);//光标相对于该网页的垂直距离
+
+
+    }
+
+    function log(log) {
+        console.log(log);
+    }
+</script>
+</body>
+</html>

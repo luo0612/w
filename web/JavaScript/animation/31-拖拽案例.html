@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽案例</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            height: 30px;
+            background: #036663;
+            border-bottom: 1px solid #336699;
+            line-height: 30px;
+            padding-left: 30px;
+        }
+
+        .nav a {
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .d-box {
+            width: 400px;
+            height: 300px;
+            border: 5px solid #eeeeee;
+            box-shadow: 2px 2px 2px 2px #666666;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+
+        .hd {
+            width: 100%;
+            height: 25px;
+            background-color: #7c9299;
+            border-bottom: 1px solid #336699;
+            line-height: 25px;
+            color: white;
+            cursor: move;
+        }
+
+        #box-close {
+            float: right;
+            cursor: pointer;
+        }
+    </style>
+    <script src="animate.js"></script>
+</head>
+<body>
+<div class="nav">
+    <a href="javascript:;" id="register">注册信息</a>
+</div>
+<div id="d-box" class="d-box">
+    <div class="hd" id="drop">
+        <i>注册信息 (可以拖拽)</i>
+        <span id="box-close">关闭</span>
+    </div>
+    <div class="db"></div>
+</div>
+<script>
+    //需求:
+    //在指定位置按住鼠标左键移动对话框
+    //分析:
+    //鼠标按下,触动事件 , 移动在更换对话框的位置
+    //鼠标按下onmousedown  鼠标弹起onmouseup 鼠标移动onmousemove
+    //步骤:
+    //1.老三步和新五步
+    //2.把鼠标的坐标赋值给对话框
+
+    //1.老三步和新五步
+    var box = document.getElementById("d-box");
+    var drop = document.getElementById("drop");
+
+    //先按下 , 在移动触动此事件
+    drop.onmousedown = function (ev) {
+        //获取鼠标在盒子中的坐标 , 将来移动的时候减去保证鼠标在盒子的指定位置
+        ev = ev || window.event;
+
+        var pageX = ev.pageX || (scroll().left + ev.clientX);
+        var pageY = ev.pageY || (scroll().top + ev.clientY);
+
+        var x = pageX - box.offsetLeft;
+        var y = pageY - box.offsetTop;
+        log("x :" + x + " x , y: " + y);
+
+        document.onmousemove = function (ev2) {
+            //吧鼠标的坐标赋值给对话框
+            ev2 = ev2 || window.event;
+            var pageX2 = ev2.pageX || (scroll().left + ev2.clientX);
+            var pageY2 = ev2.pageY || (scroll().top + ev2.clientY);
+
+            //二次操作鼠标位置 , 减去鼠标在盒子中的坐标
+            var x2 = pageX2 - x;
+            var y2 = pageY2 - y;
+
+            log("x2 : " + x2 + " , y2 : " + y2);
+
+            //给box赋值
+            box.style.left = x2 + "px";
+            box.style.top = y2 + "px";
+
+            //禁止文本选中(选中后取消)
+            window.getSelection ? window.getSelection().removeAllRanges() : document.selection.empty();
+
+        };
+
+        //事件解绑
+        drop.onmouseup = function (ev2) {
+            //解绑
+            document.onmousemove = null;
+        }
+
+
+    }
+</script>
+</body>
+</html>

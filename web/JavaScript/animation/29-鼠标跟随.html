@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标跟随</title>
+    <style>
+        body {
+            height: 5000px;
+        }
+
+        img {
+            position: absolute;
+            padding: 10px 0;
+            border: 1px solid #cccccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<img src="images/img.jpg" width="100"/>
+<script>
+    //需求:
+    //点击页面的任何位置 , 图片跟随鼠标移动到点击位置
+    //思路:
+    //获取鼠标在页面中的位置 , 然后图片缓慢运动到鼠标点击的位置
+    //兼容IE67做pageY和pageX
+    //原理:
+    //鼠标在页面的位置=被卷去的部分+可视区域部分
+    //步骤:
+    //1.老三步
+    //2.获取鼠标在页面中的位置
+    //3.利用缓动原理 , 慢慢的运动到指定位置 , 包括上下左右
+
+    //1.老三步
+    var img = document.getElementsByTagName("img")[0];
+    var timer = null;
+    var targetX = 0;
+    var targetY = 0;
+    var leaderX = 0;
+    var leaderY = 0;
+
+    //给整个文档绑定点击事件获取鼠标的位置
+    document.onclick = function (ev) {
+        //新五步
+        //兼容获取事件对象
+        ev = ev || window.event;
+        //鼠标在页面的位置=被卷去部分+可视区域部分
+        var pageY = ev.pageY || (scroll().top + ev.clientY);
+        var pageX = ev.pageX || (scroll().left + ev.clientX);
+
+        //需要使用定时器 , 先清除定时器
+        //需要兼容获取
+        targetY = pageY - img.offsetHeight / 2;//图片的中心
+        targetX = pageX - img.offsetWidth / 2;//图片的中心
+
+        clearInterval(timer);
+        timer = setInterval(function () {
+            //为盒子的位置获取值
+            leaderX = img.offsetLeft;
+            //获取步长
+            var stepX = (targetX - leaderX) / 10;
+            //二次处理步长
+            stepX = stepX > 0 ? Math.ceil(stepX) : Math.floor(stepX);
+            leaderX = leaderX + stepX;
+            //赋值
+            img.style.left = leaderX + "px";
+
+            //为盒子的位置获取值
+            leaderY = img.offsetTop;
+            var stepY = (targetY - leaderY) / 10;
+            //二次处理步长
+            stepY = stepY > 0 ? Math.ceil(stepY) : Math.floor(stepY);
+            leaderY = leaderY + stepY;
+            //赋值
+            img.style.top = leaderY + "px";
+            //清除定时器
+            if (Math.abs(targetY - img.offsetTop) <= Math.abs(stepY)
+                || Math.abs(targetX - img.offsetLeft) <= Math.abs(stepX)) {
+                img.style.top = targetY + "px";
+                img.style.left = targetX + "px";
+                clearInterval(timer);
+            }
+        }, 30);
+        //2.获取鼠标在页面中位置
+        //3.利用缓动原理 , 慢慢的运动到指定位置(先左右后上下)
+    }
+
+</script>
+</body>
+</html>

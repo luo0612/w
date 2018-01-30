@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器可视区域宽高</title>
+</head>
+<body>
+<script>
+    log(document.body.clientWidth);//128
+    log(document.body.clientHeight);//0
+
+    log(document.documentElement.clientWidth);//144
+    log(document.documentElement.clientHeight);//457
+
+    document.write(window.innerWidth + "<br>");//144
+    document.write(window.innerHeight + "");//457
+
+    //新事件 :
+    //浏览器大小变化事件 , 浏览器变化1px , 也会触动该事件
+    window.onresize = function (ev) {
+        document.title = client().width + "    " + client().height;
+    };
+
+    function client() {
+        if (window.innerHeight !== undefined) {
+            return {
+                "width": window.innerWidth,
+                "height": window.innerHeight
+            };
+        } else if (document.compatMode === "CSS1Compat") {
+            return {
+                "width": document.documentElement.clientWidth,
+                "height": document.documentElement.clientHeight
+            };
+        } else {
+            return {
+                "width": document.body.clientWidth,
+                "height": document.body.clientHeight
+            };
+        }
+    }
+
+    function log(log) {
+        console.log(log);
+    }
+</script>
+</body>
+</html>

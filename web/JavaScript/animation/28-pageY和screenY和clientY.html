@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pageY和screenY和clientY</title>
+</head>
+<body>
+<script>
+    document.onclick = function (ev) {
+        ev = ev || window.event;
+        //pageX和pageY:鼠标位于整个网页页面的顶部和左侧部分的距离
+        log(ev.pageY);//
+        //screenX和screenY鼠标位于屏幕的上方和坐车的距离
+        log(ev.screenY);//
+        //clientX和clientY鼠标位于浏览器的左侧和顶部的距离
+        log(ev.clientY);//
+
+        //pageY和pageX的兼容写法
+        //在页面位置=看得见的+看不见的
+        //pageY=event.clientY+scroll().top
+        //pageX=event.clientX+scroll().left
+
+
+    }
+
+    function log(log) {
+        console.log(log);
+    }
+
+</script>
+</body>
+</html>
